@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<meta charset="utf-8"/>
+		<title>enedScroll - addSpace function demo</title>
+	</head>
+	<body>
+	<div class="container">
+		<h2 class="title">addSpace function demo</h2>
+		<a href="http://enedscroll.eu/documentation.php" class="link">See the documentation &rarr;</a>
+	</div>
+	<div class="space-01">
+		<div class="spaces-container"></div>
+		<div class="element-01">
+			<h2>My text in <code>.element</code></h2>
+		</div>
+
+	</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="../js/enedscroll.min.js"></script>
+<script>
+(function($) {
+
+
+	enedscroll.option({
+		'enedSetColor': true,
+		'selectorsSetColor': true,
+		'selectorsColor': '#9a9ea5'
+	});
+
+	$('.element-01').ened()
+		.addSpace(['.spaces-container', 'vspace-001', [0,0], {'height': '20px' /* Other values are in .css file */ }], {
+			before: function(data){
+				$(data.this).css({'background': 'transparent'});
+			},
+			focusin: function(data){
+				$(data.this).css({'background': 'red'});
+			},
+			after: function(data){
+				$(data.this).css({'background': 'red'});
+			}
+		})
+		.addSpace(['.spaces-container', 'vspace-002', [0,0], {'height': '50px' /* Other values are in .css file */ }], {
+			before: function(data){
+				$(data.this).css({'margin-top': '0'});
+			},
+			focusin: function(data){
+				var helpers = data.helpers,
+					getVal	= helpers.getVal;
+
+				$(data.this).css({'margin-top': getVal([0, 55]) +'px'});
+			},
+			after: function(data){
+				$(data.this).css({'margin-top': '55px'});
+			}
+		})
+		.addSpace(['.spaces-container', 'vspace-003', [0,0], {'height': '50px' /* Other values are in .css file */ }], {
+			before: function(data){
+				$(data.this).css({'transform': 'translateX(0px)', '-moz-transform': 'translateX(0px)','-ms-transform': 'translateX(0px)', '-o-transform': 'translateX(0px)'});
+			},
+			focusin: function(data){
+				var helpers = data.helpers,
+					getVal	= helpers.getVal;
+
+				$(data.this).css({'transform': 'translateX('+ getVal([0, -55]) +'px)'});
+			}
+		})
+		.addSpace(['.spaces-container', 'vspace-004', [0,0], {'height': '50px' /* Other values are in .css file */ }], {
+			focusin: function(data){
+				var helpers = data.helpers,
+					getVal	= helpers.getVal;
+
+				$(data.this).css({'transform': 'translateX('+ getVal([-55, 55]) +'px)'});
+			}
+		})
+		.addSpace(['.spaces-container', 'vspace-005', [0,0], {'height': '50px' /* Other values are in .css file */ }], {
+			focusin: function(data){
+				var helpers = data.helpers,
+					getVal	= helpers.getVal;
+
+				$(data.this).css({'transform': 'translateX('+ getVal([55, 0]) +'px)'});
+			},
+			after: function(data){
+				$(data.this).css({'transform': 'translateX(0)'});
+			}
+		})
+		.get();
+
+	$('.vspace-001').append('<p>Add background <code>vspace-001</code></p>');
+	$('.vspace-002').append('<p>Move to bottom <code>vspace-002</code></p>');
+	$('.vspace-003').append('<p>Move from center to left <code>vspace-003</code></p>');
+	$('.vspace-004').append('<p>Move from left to right <code>vspace-004</code></p>');
+	$('.vspace-005').append('<p>Move from right to center <code>vspace-005</code></p>');
+
+})(jQuery);
+</script>
+	</body>
+</html>

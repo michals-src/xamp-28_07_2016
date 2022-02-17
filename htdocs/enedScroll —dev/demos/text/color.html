@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="/css/demo.css">
+		<link rel="stylesheet" href="/jquery-ui.css">
+		<title> enedScroll ⁝⁝ DEMO ☕</title>
+	</head>
+	<body>
+		
+		<header role="main">
+			<div class="container">
+				<div class="wrap wrap-inner">
+		
+					<div class="left-side">
+						<h2 class="text-logo"> enedScroll </h2>
+					</div>
+
+					<div class="right-side">
+						<nav class="horizontal">
+							<ul>
+								<li><a href="/">Homepage</a></li>
+								<li class="current-item"><a href="/demos/text/color.html">changing color</a></li>
+								<li><a href="/demos/text/color_repeat.html">changing color repeat</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		
+		<div class="some-space">
+			<div class="center-parent">
+				<div class="center-child">
+					<h2>Changing color</h2>
+				</div>
+			</div>
+		</div>
+		<div class="scene text-center">
+			<div class="container j-wh">
+				
+			<div class="item" style="height: 400px;">
+
+				<div class="center-parent">
+					<div class="center-child">
+						
+						<div class="pointer">
+							<h1 class="text-example"> Simple text for translation </h1>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="some-space"></div>
+		</div>
+
+
+	
+		<footer role="main">
+			<p> enedScroll demonstration </p>
+		</footer>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/jquery-ui.js"></script>
+		<script type="text/javascript" src="/enedScroll.js"></script>
+		
+		<script type="text/javascript">
+			(function($){
+				var w = $(window), wW = w.width(), wH = w.height();
+				$('.j-wh').css({ 'height': wH + 'px' });
+
+			})(jQuery);
+		</script>
+
+		<script type="text/javascript">
+			
+			(function($){
+
+				enedScroll.option({ 'show_all_triggers': true, 'show_all_selectors': true });
+
+				var trigger = new enedScroll.Trigger( 'trigger-1', { top: '10%' } );
+				var scene 	= new enedScroll( $('.item'), { top: 0, bottom: 0 }, trigger );
+
+				scene.addCreation(function(e){
+
+					var plugins = e.plugins, value = plugins.value();
+
+					// basic rgb(179, 186, 208)
+					// change to rgb(62, 0, 93)
+
+					value.get( [
+						value.add( [179,62], { duration: '25%' } ), // first value
+						value.add( [186,0], { duration: '25%' } ), // second value
+						value.add( [208,93], { duration: '25%' } ) // third value
+					], function(e){
+						$('.text-example').css({ 'color': 'rgb(' + Math.floor( e[0] ) + ',' + Math.floor( e[1] ) + ',' + Math.floor( e[2] ) + ')' });
+					} );
+
+
+				});
+
+
+
+
+			})(jQuery);
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Screen architecture</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<style>
+		body,html{
+			margin:0;padding:0;
+		}
+			.container{
+				padding-top: 50px;
+				text-align: center;
+			}
+			.screen{
+				width: 100%;
+			    height: 100%;
+			    margin: 0 auto;
+			    text-align: center;
+			    position: absolute;
+				z-index: 2;
+			}
+			.screens-parent-ac{
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			
+			<div class="screens-animation" style="height:100%;">
+				<!-- <div class="screens-parent"> -->
+					
+					<div class="screen screen-1" style="background: #eee;"> Screen 1</div>
+					<div class="screen screen-2" style="background: #c5f3e8;"> </div>
+					<div class="screen screen-3" style="background: #f55656;"> </div>
+					<div class="screen screen-4" style="background: #e9f7db url(https://www.planwallpaper.com/static/images/abstraction_light_neon_glitter_97687_1920x1080.jpg);"> Screen 4 </div>
+					<div class="screen screen-5" style="background: #f55656"> Screen 5 </div>
+
+				<!-- </div> -->
+			</div>
+
+		</div>
+		
+
+		<div style="height: 1000px;"></div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="enedScroll.js?v=screen-1.0"></script>
+		<script>
+			(function($){
+
+				var height = $(window).height();
+				$('.screen').css( { 'height': height });
+
+				enedScroll.option({
+					'show_all_triggers': true,
+					'show_all_selectors': true
+				});
+
+				var scrollTrigger = new enedScroll.Trigger( { name: 'scrollTrigger', margins: { top: 0 } } );
+				var animationVisual = new enedScroll.Visual( {
+					'show_trigger': true,
+					'color_trigger': 'blue'
+				} );
+				var animation = new enedScroll( $('.screens-animation'), { top: 0, bottom: 0 }, scrollTrigger, animationVisual );
+
+
+				var myFunction = function( data ){
+
+
+				}
+
+				//////////////////////////
+				//////////////////////////
+				//////////////////////////
+				//////////////////////////
+
+				////// D O   Z R O B I E N I A
+				////// -----------------------
+				////// enedScroll.visual - separacja ustawień globalnych od lokalnych np. kolor selektorów, triggera itp.
+				////// sprawdzić kod i uporządkować
+				////// poprawa helperów
+				////// ODCZYTYWANIE WARTOŚCI Z ELEMENTU DATA (HTML) -- wzór konkurencja elementy data html :)
+				////// POPRAWA ARGUMENTÓW FUNKCJI NA PROSTRZE -- wzór konkurencja elementy data html
+				////// poprawa struktury skryptu aby wszystkie funkcje nie były udostępniane
+				////// dodać do argumentu this - progress i state. zastanowić się nad state
+				////// przejrzenie kodu
+				////// pomyślenie nad nowymi helperami lub udoskoleniami
+				////// komentarze napisać
+				////// sprawdzić funkcje, zabezpieczyć funkcje
+
+				//////////////////////////
+				//////////////////////////
+				//////////////////////////
+				//////////////////////////
+
+
+				var myFuncLimit = 0;
+				animation.addCreation( function(){ 
+
+					var helpers = this.helpers;
+					var screen = helpers.screen();
+					var collection = helpers.collection();
+
+					var abc = screen.collection( [
+							screen.add( $('.screen-1'), 'right', { duration:height, offset:0 /* isVisible: true : false ; onShow: function() ; onHide: function() ; */ } ),
+							screen.add( $('.screen-2'), 'scale', { duration:height, offset:0, onShow: {data: { to: 300 }, callback: myFunction} } ),
+							screen.add( $('.screen-3'), 'top', { duration:height, offset:height, onShow: [{ to: 500 }, myFunction] } ),
+							screen.add( $('.screen-4'), 'right', { duration:270, offset:(height * 2) } ),
+							screen.add( $('.screen-5'), 'left', { duration:height, offset:(height * 3) + 200, /* done: screen.hide() */ } ),
+					], function( screens ){
+
+						collection.get( [
+							collection.add( [0, 38], {duration: (screens[3].height - 100), offset: (screens[2].position.bottom 	+ 150), bound: 0, repeat: 1} )
+						], function(res){
+								//$(screens[3].item).css({ 'filter': 'blur( ' + res[0] + 'px)' });
+						} );
+
+					});
+
+
+
+
+				} );
+
+
+
+			})(jQuery);
+		</script>
+	</body>
+</html>

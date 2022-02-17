@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Concert+One&subset=latin-ext';
+@import 'https://fonts.googleapis.com/css?family=Molengo';
+
+body,html{
+	font-family: Molengo, sans-serif !important;
+}
+nav.primary{
+	width: 100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #f4f4f4;
+	background: rgba(255,255,255,.5);
+	text-align: center;
+}
+nav.primary button{
+	background: green;
+	color: #fff;
+}
+.enedS{
+	width:100%;
+	height:1px;
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.enedE{
+	width:100%;
+	height:1px;
+	position:absolute;
+	bottom:0;
+	left: 0;
+}
+.enedS.color,
+.enedE.color{
+	background-color: red;
+}
+.area-1{
+	/*background: rgba(0,0,0,.1);*/
+	text-align: center;
+	height: 800px;
+}
+.area-1 .field-1{
+	position: relative;
+	height: 460px;
+	top:100px;
+	padding-top: 80px;
+}
+.area-1 .field-1 .content-field-1{
+	top: 0;
+	width: 100%;
+	margin:0;
+	text-align: center;
+	left: 0;
+}
+.area-1 h1{
+	font-family: "Concert One";
+	font-weight: 400;
+	font-size:72px;
+	letter-spacing: 1.5px;
+	margin:0;
+	color: rgb(101, 126, 255);
+}
+@media (max-width: 500px){
+	.area-1 h1{
+		font-size: 24px !important;
+	}
+	.area-1 p{
+		font-size: 14px !important;
+	}
+}
+.area-1 p{
+	font-size:18px;
+	margin-top:25px;
+}
+.text-space, [class^="dd-"]{
+	position: absolute !important;
+}

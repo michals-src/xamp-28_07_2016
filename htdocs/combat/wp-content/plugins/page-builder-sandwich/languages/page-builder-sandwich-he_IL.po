@@ -1,0 +1,1616 @@
+# Copyright (C) 2016 Page Builder Sandwich
+# This file is distributed under the same license as the Page Builder Sandwich package.
+# Translators:
+# ‫גיא עמיאל‬‎ <mitogadv@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Builder Sandwich\n"
+"PO-Revision-Date: 2016-07-12 08:49+0000\n"
+"Last-Translator: Gambit Technologies <info@gambit.ph>\n"
+"Language-Team: Hebrew (Israel) (http://www.transifex.com/gambit-technologies-inc/page-builder-sandwich/language/he_IL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: class-element-newsletter.php:195
+msgid "Missing parameters. Please contact the admin."
+msgstr "חסרים פרמטרים, אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:200
+msgid "Security error, please refresh the page and try again."
+msgstr "בעיית אבטחה, רענן את הדף ונסה שוב."
+
+#: class-element-newsletter.php:207
+msgid "Missing newsletter settings. Please contact the admin."
+msgstr "חסרים הגדרות לניולזטר. אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:210
+msgid "Invalid email address."
+msgstr "כתובת דוא\"ל לא חוקית."
+
+#: class-element-newsletter.php217, class-element-newsletter.php223,
+#: class-element-newsletter.php244, class-element-newsletter.php281,
+#: class-element-newsletter.php:321
+msgid "Invalid newsletter settings. Please contact the admin."
+msgstr "הגדרות ניוזלטר לא חוקיות. אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:241
+msgid "MailPoet plugin not found. Please contact the admin."
+msgstr "MailPoet פלאגין לא נמצא. אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:264
+msgid "Email address is already subscribed."
+msgstr "כתובת דוא\"ל כבר רשומה."
+
+#: class-element-newsletter.php267, class-element-newsletter.php307,
+#: class-element-newsletter.php:362
+msgid "Something went wrong. Please contact the admin."
+msgstr "משהו השתבש. אנא צור קשר עם המנהל."
+
+#: class-element-sidebar.php:37
+msgid "— Select Sidebar —"
+msgstr "- בחר סרגל צד -"
+
+#: class-element-sidebar.php:44
+msgid ""
+"These are the existing sidebars/widget area in your site. %sManage widgets%s"
+msgstr "אלה הם סרגלי הצד / ווידג'טים הקיימים באתר שלך. %sנהל ווידג'טים%s"
+
+#: class-icons.php:677
+msgid "Uploaded Icons"
+msgstr "העלה אייקונים"
+
+#: class-icons.php:678
+msgid "%sCinema Icons%s by %sIcons8%s"
+msgstr "%sCinema Icons%s ע\"י %sIcons8%s"
+
+#: class-icons.php:679
+msgid "%sDashicons%s"
+msgstr "%sDashicons%s"
+
+#: class-icons.php:680
+msgid "%sFont Awesome%s"
+msgstr "%sFont Awesome%s"
+
+#: class-icons.php:681
+msgid "%sGenericons%s by %sAutomattic%s"
+msgstr "%sGenericons%s ע\"י %sAutomattic%s"
+
+#: class-icons.php:682
+msgid "%sKameleon%s by %sWebalys - Get more icons%s"
+msgstr "%sKameleon%s ע\"י %sWebalys - עוד אייקונים%s"
+
+#: class-icons.php:683
+msgid "%sNucleo%s by %sNucleoApp - Get more icons%s"
+msgstr "%sNucleo%s ע\"י %sNucleoApp - עוד אייקונים%s"
+
+#: class-icons.php:684
+msgid "%sStreamline%s by %sWebalys - Get more icons%s"
+msgstr "%sStreamline%s ע\"י %sWebalys - עוד אייקונים%s"
+
+#: class-icons.php:685
+msgid "Icons by %sTaras Shypka%s"
+msgstr "אייקונים ע\"י %sTaras Shypka%s"
+
+#: class-licensing.php46, class-page-builder-sandwich.php:832
+msgid "Enter License Key to Receive Updates"
+msgstr "הזן מפתח רישיון כדי לקבל עדכונים"
+
+#: class-licensing.php47, class-page-builder-sandwich.php:833
+msgid "Verify License"
+msgstr "ודא רישיון"
+
+#: class-licensing.php51, class-page-builder-sandwich.php:834
+msgid "You will be notified of plugin updates. Your License key is"
+msgstr "תקבלו הודעה על עדכוני הפלאגין. מפתח הרישיון שלך"
+
+#: class-licensing.php52, class-page-builder-sandwich.php:835
+msgid "Deactivate License"
+msgstr "השבת רישיון"
+
+#: class-licensing.php:59
+msgid "Your License Key"
+msgstr "מפתח הרישיון שלך"
+
+#: class-licensing.php:93
+msgid "Please provide your license key."
+msgstr "אנא ספק את מפתח הרישיון שלך."
+
+#: class-licensing.php:98
+msgid "Security error, please refresh and try again."
+msgstr "שגיאת אבטחה, רענן ונסה שוב."
+
+#: class-licensing.php:123
+msgid "License checking failed."
+msgstr "בדיקת הרישיון נכשלה."
+
+#: class-licensing.php:136
+msgid "License is inactive or invalid."
+msgstr "הרישיון אינו פעיל או לא חוקי."
+
+#: class-licensing.php:165
+msgid "License deactivation failed."
+msgstr "האקטיבציה של הרישיון נכשלה."
+
+#: class-licensing.php:177
+msgid "License failed to deactivate."
+msgstr "ביטול הפעלת הרישיון נכשלה."
+
+#: class-lite-tracking.php:147
+msgid "Rate PB Sandwich!"
+msgstr "דרג את PB Sandwich!"
+
+#: class-lite-tracking.php:149
+msgid ""
+"Hey there!<br>It looks like you've been actively building your pages for "
+"more than an hour now. I'd like to ask a favor from you and rate Page "
+"Builder Sandwich in the WordPress.org plugin directory. Getting a great "
+"review from you would be awesome!"
+msgstr "היי! <br> זה נראה כאילו אתה כבר פעיל בבניית הדפים שלך במשך יותר משעה. הייתי רוצה לבקש ממך טובה לדרג את Page Builder Sandwich באתר WordPress.org. קבלת ביקורת טובה ממך תהיה מדהימה!"
+
+#: class-lite-tracking.php:150
+msgid "Sure I'll rate"
+msgstr "בטח שאני אדרג"
+
+#: class-lite-tracking.php:151
+msgid "Maybe later"
+msgstr "אולי אחר כך"
+
+#: class-meta-box.php:88
+msgid ""
+"You will need to save your %s first before you can edit it with Page Builder"
+" Sandwich."
+msgstr "אתה צריך לשמור את ה %s הראשון שלך לפני שתוכל לערוך אותו עם Page Builder Sandwich."
+
+#: class-meta-box.php:110
+msgid "Visit this %s in your front-end to begin editing."
+msgstr "בקר את זה %s בעמוד הפרונטלי כדי להתחיל בעריכה."
+
+#: class-meta-box.php116, class-page-builder-sandwich.php:295
+msgid "Edit with Page Builder Sandwich"
+msgstr "ערוך עם Page Builder Sandwich"
+
+#: class-migration.php:76
+msgid "Page Builder Sandwich Important Update Notice"
+msgstr "Page Builder Sandwich הודעת עדכון חשובה "
+
+#: class-migration.php:78
+msgid ""
+"Page Builder Sandwich has been completely re-written and is now <strong>a "
+"frontend page builder</strong>! Your content will need to be migrated to the"
+" new system for it to work correctly."
+msgstr "Page Builder Sandwich כבר נכתב מחדש לחלוטין וכעת הוא <strong> הבילדר לממשק הקדמי שלך </ strong>! התוכן שלך צריך לעבור המרה למערכת החדשה כדי לעבוד כראוי."
+
+#: class-migration.php:81
+msgid ""
+"This migration process will adjust the old column structure into the new one"
+" on %d affected post(s)/page(s). Make sure to back up your site data first "
+"before proceeding."
+msgstr "תהליך המרה זה יתאים את מבנה הטור הישן לחדש %d וישפיע על עמודים/פוסטים. הקפד לגבות את הנתונים באתר שלך לפני שתמשיך."
+
+#: class-migration.php:86
+msgid "Start the migration process"
+msgstr "התחל את תהליך ההמרה"
+
+#: class-page-builder-sandwich.php302, class-translations.php:396
+msgid "Save and Update"
+msgstr ""
+
+#: class-page-builder-sandwich.php307, class-page-builder-sandwich.php318,
+#: class-translations.php:397
+msgid "Save as Draft"
+msgstr ""
+
+#: class-page-builder-sandwich.php309, class-page-builder-sandwich.php317,
+#: class-translations.php:398
+msgid "Save as Pending Review"
+msgstr ""
+
+#: class-page-builder-sandwich.php:316
+msgid "Save and Publish"
+msgstr ""
+
+#: class-page-builder-sandwich.php:333
+msgid "Cancel"
+msgstr "סגור"
+
+#: class-page-builder-sandwich.php:340
+msgid "Please wait..."
+msgstr "המתן בבקשה..."
+
+#: class-page-builder-sandwich.php:353
+msgid "Learn More About Premium"
+msgstr "מידע נוסף אודות גרסת הפרימיום"
+
+#: class-page-builder-sandwich.php:355
+msgid ""
+"Get more tools and features by upgrading to the Premium Plugin. Here're some"
+" of the stuff you'll get:"
+msgstr "קבל עוד כלים ומידע נוסף ידי שדרוג התוסף לפרימיום. הנה כמה דברים שתקבל:"
+
+#: class-page-builder-sandwich.php:356
+msgid "Premium elements"
+msgstr "אלמנטים בפרימיום"
+
+#: class-page-builder-sandwich.php:357
+msgid "Live editable Carousels"
+msgstr "קרוסלות לעריכה בזמן אמת"
+
+#: class-page-builder-sandwich.php:358
+msgid "Full-width rows"
+msgstr "שורות ברוחב מלא"
+
+#: class-page-builder-sandwich.php:359
+msgid "Background tinted images"
+msgstr "תמונות כהות ברקע"
+
+#: class-page-builder-sandwich.php:360
+msgid "More icons, Bullet icons, upload your own icons"
+msgstr "עוד איקונים, סמלי תבליט, אפשרות להעלות איקונים משלך"
+
+#: class-page-builder-sandwich.php:361
+msgid "Stylable buttons"
+msgstr "כפתורים מעוצבים"
+
+#: class-page-builder-sandwich.php:362
+msgid "More easy to use styling tools"
+msgstr "כלים לעיצוב בקלות רבה יותר"
+
+#: class-page-builder-sandwich.php:363
+msgid "Pre-designed Templates"
+msgstr "תבניות מעוצבות"
+
+#: class-page-builder-sandwich.php:364
+msgid "...and plenty more!"
+msgstr "... והרבה יותר!"
+
+#: class-page-builder-sandwich.php:365
+msgid "Learn more"
+msgstr "למד עוד"
+
+#: class-page-builder-sandwich.php:374
+msgid "Tips"
+msgstr "טיפים"
+
+#: class-page-builder-sandwich.php:375
+msgid "Some Tips"
+msgstr "כמה טיפים"
+
+#: class-page-builder-sandwich.php:376
+msgid "<em>Click</em> on your site content area and start typing"
+msgstr "<Em> לחץ </ em> על אזור התוכן באתר שלך והתחל להקליד"
+
+#: class-page-builder-sandwich.php:377
+msgid "<em>Click</em> a button on the inspector to apply styling"
+msgstr "<Em> לחץ </ em> על כפתור בפאנל הניהול כדי להחיל לעיצוב"
+
+#: class-page-builder-sandwich.php:378
+msgid "<em>Click & hold</em> to apply styles rapildy"
+msgstr "<Em> לחץ והחזק </ em> כדי להחיל סגנונות במהירות"
+
+#: class-page-builder-sandwich.php:379
+msgid "<em>Ctrl+Click</em> to reverse the styling"
+msgstr "<Em> Ctrl + לחיצה </ em> כדי לבטל עיצוב"
+
+#: class-page-builder-sandwich.php:380
+msgid "<em>Shift+Ctrl+Click</em> to reset the style"
+msgstr "<Em> Shift + Ctrl + לחיצה </ em> כדי לאפס את הסגנון"
+
+#: class-page-builder-sandwich.php:381
+msgid "<em>Click & hold</em> on content to drag them"
+msgstr "<Em> לחץ והחזק </ em> את התוכן כד לגרור אותו"
+
+#: class-page-builder-sandwich.php:382
+msgid "<em>Use arrows keys</em> to move between rows"
+msgstr "<Em> השתמש במקשי החצים </ em> כדי לעבור בין שורות"
+
+#: class-page-builder-sandwich.php:383
+msgid "<em>Drag edges</em> of images & icons to resize them"
+msgstr "<Em> גרור קצוות </ em> של תמונות ואיקונים כדי לשנות את גודלם"
+
+#: class-page-builder-sandwich.php:384
+msgid "<em>Hold shift</em> to see row outlines"
+msgstr "<Em> החזיקו את מקש Shift </ em> כדי לראות את המתארים של השורות"
+
+#: class-page-builder-sandwich.php:385
+msgid "<em>More settings</em> show up for some elements"
+msgstr "<Em>הגדרות נוספות</ em> מופיעים בכמה אלמנטים"
+
+#: class-page-builder-sandwich.php:386
+msgid "<em>Quick toolbars</em> show up for some elements"
+msgstr "<Em> סרגלי כלים מהירים </ em> מופיעים בכמה אלמנטים"
+
+#: class-page-builder-sandwich.php:387
+msgid "<em>Ctrl+S</em> to save"
+msgstr "<em>Ctrl+S</em> לשמירה"
+
+#: class-page-builder-sandwich.php:388
+msgid "<em>Ctrl+E</em> start Page Builder Sandwich"
+msgstr "<em>Ctrl+E</em> הפעל Page Builder Sandwich"
+
+#: class-page-builder-sandwich.php:389
+msgid "Replay Tour"
+msgstr "הפעל מחדש את הסיור"
+
+#: class-page-builder-sandwich.php:398
+msgid "Help"
+msgstr "עזרה"
+
+#: class-page-builder-sandwich.php406, class-translations.php:355
+msgid "Undo"
+msgstr "בטל"
+
+#: class-page-builder-sandwich.php414, class-translations.php:356
+msgid "Redo"
+msgstr "בצע שוב"
+
+#: class-page-builder-sandwich.php:423
+msgid "CSS"
+msgstr "CSS"
+
+#: class-page-builder-sandwich.php:430
+msgid "Javascript"
+msgstr "Javascript"
+
+#: class-page-builder-sandwich.php:437
+msgid "Source"
+msgstr "מקור"
+
+#: class-page-builder-sandwich.php:831
+msgid "Frontend"
+msgstr "ממשק קדמי"
+
+#: class-page-builder-sandwich.php:836
+msgid ""
+"License key activated, you will now receive plugin updates from your admin."
+msgstr "מפתח הרישיון מופעל, תקבל כעת עדכונים של הפלאגין ממנהל המערכת."
+
+#: class-page-builder-sandwich.php:837
+msgid "License key deactivated, you will no longer receive plugin updates."
+msgstr "מפתח הרישיון מנוטרל, אתה לא תקבל עוד עדכונים לפלאגין."
+
+#: class-plugin.php:146
+msgid "Go Premium"
+msgstr "עבור לפרימיום"
+
+#: class-plugin.php:151
+msgid "Get Customer Support"
+msgstr "תמיכה ללקוחות"
+
+#: class-plugin.php:245
+msgid ""
+"Thanks for activating Page Builder Sandwich! To get started, visit any page "
+"or post in your site. %sOr let's create a new %s right now and I'll tour you"
+" on how to use PB Sandwich.%s (This will create a new draft %s)"
+msgstr "תודה על הפעלת Page Builder Sandwich! כדי להתחיל, בקר בכל עמוד או פוסט באתר שלך. s%או בוא ליצור חדש%s עכשיו ואני אדריך אותךעל אופן השימוש ב-PBS.%s (פעולה זו תיצור טיוטה חדשה%s)"
+
+#: class-plugin.php:262
+msgid ""
+"Thanks for activating Page Builder Sandwich! To get started, visit any page "
+"or post in your site to begin using Page Builder Sandwich. You will need to "
+"have editing privileges to edit them."
+msgstr "תודה על הפעלת Page Builder Sandwich! כדי להתחיל, בקר בכל עמוד או פוסט באתר שלך כדי להתחיל להשתמש ב-Page Builder Sandwich. יהיה עליך להיות בעל הרשאות עריכה כדי לערוך אותם."
+
+#: class-stats-tracking.php:209
+msgid "Please describe your issue so we can fix it!"
+msgstr "תאר את הבעיה שלך כדי שנוכל לתקן אותה!"
+
+#: class-stats-tracking.php:210
+msgid "What feature are you looking for?"
+msgstr "מה הפיצ'רים שאתה מחפש?"
+
+#: class-stats-tracking.php:211
+msgid "What&apos;s the name of the plugin?"
+msgstr "מה&apos;s השם של הפלאגין?"
+
+#: class-stats-tracking.php:212
+msgid "What reason?"
+msgstr "איזו סיבה?"
+
+#: class-stats-tracking.php213, class-stats-tracking.php:248
+msgid "Feedback"
+msgstr "משוב"
+
+#: class-stats-tracking.php215, class-stats-tracking.php218,
+#: class-stats-tracking.php:219
+msgid ""
+"Enter your email if you want us to let you know if we have resolved your "
+"issues"
+msgstr "הזן את כתובת הדוא\"ל שלך אם אתה רוצה שניידע אותך כשפתרנו את הבעיה"
+
+#: class-stats-tracking.php:216
+msgid ""
+"Enter your email if you want us to let you know if we have added your "
+"feature request"
+msgstr "הזן את כתובת הדוא\"ל שלך אם אתה רוצה שניידע אותך כשהוספנו את הפיצ'ר שביקשת"
+
+#: class-stats-tracking.php:217
+msgid "Enter your email if you want us to let you know if we have updates"
+msgstr "הזן את כתובת הדוא\"ל שלך אם אתה רוצה שניידע אותך כשיש עדכונים"
+
+#: class-stats-tracking.php:242
+msgid "Deactivating? Let Us Know Why!"
+msgstr "מבטל פעילות? ספר לנו למה!"
+
+#: class-stats-tracking.php:243
+msgid ""
+"Let us know your reason and we&apos;ll use your feedback to make Page "
+"Builder Sandwich a better fit for you and other users."
+msgstr "ספר לנו את הסיבה שלך ואנו  & apos; ll ניעזר במשוב שלך כדי להפוך Page Builder Sandwich טוב יותר עבורך ועבור משתמשים אחרים."
+
+#: class-stats-tracking.php:244
+msgid "It&apos;s not working correctly"
+msgstr "It&apos;s לא עובד כראוי"
+
+#: class-stats-tracking.php:245
+msgid "It&apos;s missing a feature"
+msgstr "It&apos;s חסר פיצ'ר"
+
+#: class-stats-tracking.php:246
+msgid "I found a better alternative"
+msgstr "מצאתי חלופה טובה יותר"
+
+#: class-stats-tracking.php:247
+msgid "Other"
+msgstr "אחר"
+
+#: class-stats-tracking.php:249
+msgid ""
+"Enter your email so we can let you know if we have resolved your issues"
+msgstr "הזן את כתובת הדוא\"ל שלך כדי שנוכל ליידע אותך כשפתרנו את הבעיה"
+
+#: class-stats-tracking.php:252
+msgid "Send Feedback & Deactivate"
+msgstr "שלח משוב ובטל"
+
+#: class-stats-tracking.php:253
+msgid "Just Deactivate"
+msgstr "בטל"
+
+#: class-translations.php:40
+msgid "Save HTML"
+msgstr "שמור HTML"
+
+#: class-translations.php43, class-translations.php:44
+msgid "Change Icon"
+msgstr "שנה איקון"
+
+#: class-translations.php:47
+msgid "Subscribe"
+msgstr "הרשם"
+
+#: class-translations.php:50
+msgid "Get the Premium Plugin to get more tools and features"
+msgstr "קבל את גרסת הפרימיום של הפלאגין כדי לקבל מידע על כלים ותכונות"
+
+#: class-translations.php:53
+msgid "Newsletter"
+msgstr "ניוזלטר"
+
+#: class-translations.php:54
+msgid "Show Button When Typed On"
+msgstr "הצג לחצן כאשר הקלידו בשדה"
+
+#: class-translations.php:55
+msgid "Always Show Button"
+msgstr "תמיד הצג את הכפתור"
+
+#: class-translations.php:56
+msgid "Error Message Color"
+msgstr "צבע הודעת שגיאה"
+
+#: class-translations.php57, class-translations.php:59
+msgid "Reset Error Message Color"
+msgstr "איפוס צבע הודעת שגיאה "
+
+#: class-translations.php:58
+msgid "Success Message Color"
+msgstr "צבע הודעת הצלחה"
+
+#: class-translations.php:60
+msgid "Success Message"
+msgstr "הודעת הצלחה"
+
+#: class-translations.php:61
+msgid "Thank you for subscribing!"
+msgstr "תודה שנרשמת!"
+
+#: class-translations.php:62
+msgid "Newsletter Service"
+msgstr "שירותי ניוזלטר"
+
+#: class-translations.php:63
+msgid "Newsletter Settings"
+msgstr "הגדרות ניוזלטר"
+
+#: class-translations.php:64
+msgid "MailChimp API Key"
+msgstr "קוד MailChimp API"
+
+#: class-translations.php:65
+msgid "Get your MailChimp API Key"
+msgstr "לחץ לקבלת קוד API של MailChimp"
+
+#: class-translations.php:66
+msgid "MailChimp List Key"
+msgstr "MailChimp List Key"
+
+#: class-translations.php:67
+msgid "Get your MailChimp List Key"
+msgstr "לחץ לקבלת MailChimp List Key"
+
+#: class-translations.php:68
+msgid "AWeber List ID"
+msgstr "רשימת ID של AWeber"
+
+#: class-translations.php:69
+msgid "Get your AWeber List ID"
+msgstr "קבל את ה-ID שלך מ-AWeber "
+
+#: class-translations.php:70
+msgid "MailPoet List"
+msgstr "רשימות MailPoet"
+
+#: class-translations.php:73
+msgid "%s Widget Properties"
+msgstr "%s מאפייני ווידג'טים"
+
+#: class-translations.php:76
+msgid "Add a sidebar or widget area"
+msgstr "הוסף סרגל צד או ווידג'ט"
+
+#: class-translations.php:77
+msgid "Select a Sidebar"
+msgstr "בחר סרגל צד"
+
+#: class-translations.php:80
+msgid "Add a WordPress widget"
+msgstr "הוסף ווידג'ט של וורדפרס"
+
+#: class-translations.php:83
+msgid "No attributes or content detected"
+msgstr "לא זוהו תכונות או תכנים"
+
+#: class-translations.php:84
+msgid "%s Properties"
+msgstr "%s מאפיינים"
+
+#: class-translations.php:85
+msgid "Options are detected from usage of this shortcode"
+msgstr "אפשרויות זוהו משימוש של ה-shortcode הזה"
+
+#: class-translations.php:86
+msgid ""
+"Note: If the element doesn't show up, you may need to refresh the page."
+msgstr "הערה: אם הרכיב אינו מופיע, ייתכן שיהיה עליך לרענן את הדף."
+
+#: class-translations.php:90
+msgid "Hello! I See You're New to Page Builder Sandwich"
+msgstr "שלום! אני רואה שאתה חדש ב-Page Builder Sandwich"
+
+#: class-translations.php:91
+msgid ""
+"This quick tour will teach you how to get started. Click the <strong>Edit "
+"button</strong> above to start editing this page."
+msgstr "סיור קצר זה ילמד אותך כיצד להתחיל. לחץ על כפתור עריכה<strong> </ strong> כדי להתחיל לערוך את הדף."
+
+#: class-translations.php:92
+msgid "Your Content Area"
+msgstr "אזור התוכן שלך"
+
+#: class-translations.php:93
+msgid ""
+"In Page Builder Sandwich, everything is simple. This is your content area, "
+"and you can start typing right away to start building your "
+"site.<br><br><em>Go ahead and type the word \"<strong>Sandwich</strong>\" to"
+" proceed.</em>"
+msgstr "ב-Page Builder Sandwich, הכל פשוט. זהו אזור התוכן שלך, ואתה יכול להתחיל להקליד מיד כדי להתחיל לבנות את את האתר שלך.<br><br><em>קדימה להקליד את המילה \"<strong> בילדר </ strong>\" כדי להמשיך. </em >"
+
+#: class-translations.php:94
+msgid "This Is the Inspector"
+msgstr "זהו פאנל הניהול"
+
+#: class-translations.php:95
+msgid ""
+"This panel area contains all the styling tools that you'll ever need. Each "
+"icon is a button that you can click to apply styles on the item you have "
+"currently selected.<br><br>Hover your mouse over each tool to get a "
+"description of what they do. Some even have shortcut keys that you can "
+"perform to quickly apply them.<br><br><em>Go hover your mouse over the text "
+"formatting buttons on the top part to proceed.</em>"
+msgstr "אזור פאנל זה מכיל את כל הכלים לעיצוב שאתה צריך אי פעם. כל איקון הוא כפתור שעליו תוכל ללחוץ כדי להחיל סגנונות על הפריט שבחרת כרגע.<br> <br>עבור עם העכבר מעל כל כלי כדי לקבל תיאור של מה שהוא עושה. לחלקם יש אפילו מקשי קיצור שבאפשרותך לבצע כדי ליישם אותם במהירות.<br><br><em> העבר את העכבר מעל הכפתורים לעיצוב הטקסט בחלק העליון כדי להמשיך. </em>"
+
+#: class-translations.php:96
+msgid "That's It!"
+msgstr "זהו זה!"
+
+#: class-translations.php:97
+msgid ""
+"Finally, when you're done editing, click on this save button to finalize "
+"your changes."
+msgstr "לבסוף, כאשר תסיים לערוך, לחץ על לחצן שמור זה כדי לעדכן את השינויים."
+
+#: class-translations.php:100
+msgid "Communication error, please refresh the page and try again"
+msgstr "אירעה שגיאת תקשורת, רענן את הדף ונסה שוב"
+
+#: class-translations.php103, class-translations.php366,
+#: class-translations.php372, class-translations.php379,
+#: class-translations.php:383
+msgid "Edit %s"
+msgstr "ערוך %s"
+
+#: class-translations.php103, class-translations.php:379
+msgid "Link"
+msgstr "קישור"
+
+#: class-translations.php104, class-translations.php:105
+msgid "Button Color"
+msgstr "צבע כפתור"
+
+#: class-translations.php105, class-translations.php107,
+#: class-translations.php111, class-translations.php115,
+#: class-translations.php123, class-translations.php126,
+#: class-translations.php129, class-translations.php141,
+#: class-translations.php144, class-translations.php147,
+#: class-translations.php150, class-translations.php154,
+#: class-translations.php172, class-translations.php192,
+#: class-translations.php196, class-translations.php199,
+#: class-translations.php203, class-translations.php206,
+#: class-translations.php209, class-translations.php212,
+#: class-translations.php216, class-translations.php219,
+#: class-translations.php222, class-translations.php230,
+#: class-translations.php233, class-translations.php236,
+#: class-translations.php239, class-translations.php242,
+#: class-translations.php246, class-translations.php250,
+#: class-translations.php252, class-translations.php265,
+#: class-translations.php268, class-translations.php273,
+#: class-translations.php280, class-translations.php289,
+#: class-translations.php293, class-translations.php297,
+#: class-translations.php310, class-translations.php:313
+msgid "Reset %s"
+msgstr "איפוס %s"
+
+#: class-translations.php106, class-translations.php:107
+msgid "Button Text Color"
+msgstr "צבע טקסט הכפתור"
+
+#: class-translations.php108, class-translations.php109,
+#: class-translations.php110, class-translations.php:111
+msgid "Vertical Padding"
+msgstr "רווח אנכי"
+
+#: class-translations.php109, class-translations.php113,
+#: class-translations.php124, class-translations.php127,
+#: class-translations.php145, class-translations.php176,
+#: class-translations.php178, class-translations.php190,
+#: class-translations.php194, class-translations.php197,
+#: class-translations.php201, class-translations.php204,
+#: class-translations.php207, class-translations.php210,
+#: class-translations.php214, class-translations.php217,
+#: class-translations.php220, class-translations.php228,
+#: class-translations.php231, class-translations.php240,
+#: class-translations.php271, class-translations.php:287
+msgid "Increase %s"
+msgstr "הגדל %s"
+
+#: class-translations.php110, class-translations.php114,
+#: class-translations.php125, class-translations.php128,
+#: class-translations.php146, class-translations.php177,
+#: class-translations.php179, class-translations.php191,
+#: class-translations.php195, class-translations.php198,
+#: class-translations.php202, class-translations.php205,
+#: class-translations.php208, class-translations.php211,
+#: class-translations.php215, class-translations.php218,
+#: class-translations.php221, class-translations.php229,
+#: class-translations.php232, class-translations.php241,
+#: class-translations.php272, class-translations.php279,
+#: class-translations.php:288
+msgid "Decrease %s"
+msgstr "הקטן %s"
+
+#: class-translations.php112, class-translations.php113,
+#: class-translations.php114, class-translations.php:115
+msgid "Horizontal Padding"
+msgstr "רווח אופקי"
+
+#: class-translations.php:116
+msgid "Ghost Button Style"
+msgstr "כפתור בסגנון מתאר"
+
+#: class-translations.php:117
+msgid "Normal Button Style"
+msgstr "סגנון לחצן רגיל"
+
+#: class-translations.php:118
+msgid "Choose Button Icon"
+msgstr "בחר אייקון לכפתור"
+
+#: class-translations.php119, class-translations.php137,
+#: class-translations.php157, class-translations.php173,
+#: class-translations.php180, class-translations.php296,
+#: class-translations.php299, class-translations.php301,
+#: class-translations.php316, class-translations.php:382
+msgid "Remove %s"
+msgstr "הסר %s"
+
+#: class-translations.php119, class-translations.php234,
+#: class-translations.php277, class-translations.php348,
+#: page_builder_sandwich/templates/frame-icon-picker.php:13
+msgid "Icon"
+msgstr "אייקון"
+
+#: class-translations.php:120
+msgid "Button Icon"
+msgstr "כפתור עם אייקון"
+
+#: class-translations.php:121
+msgid "Use Icon"
+msgstr "השתמש באייקון"
+
+#: class-translations.php:122
+msgid "Change Icon Color"
+msgstr "שנה את צבע האייקון"
+
+#: class-translations.php:123
+msgid "Icon Color"
+msgstr "צבע אייקון"
+
+#: class-translations.php124, class-translations.php125,
+#: class-translations.php:126
+msgid "Icon Size"
+msgstr "גודל אייקון"
+
+#: class-translations.php127, class-translations.php128,
+#: class-translations.php129, class-translations.php178,
+#: class-translations.php179, class-translations.php:180
+msgid "Border Radius"
+msgstr "רדיוס גבול"
+
+#: class-translations.php:130
+msgid "Full-Width"
+msgstr "רוחב מלא"
+
+#: class-translations.php:131
+msgid "Normal Width"
+msgstr "רוחב רגיל"
+
+#: class-translations.php:132
+msgid "Full-Height"
+msgstr "גובה מלא"
+
+#: class-translations.php:133
+msgid "Automatic Height"
+msgstr "גובה אוטומטי"
+
+#: class-translations.php:134
+msgid "Move Slide Left"
+msgstr "הזז שקופית שמאלה"
+
+#: class-translations.php:135
+msgid "Slides"
+msgstr "שקופיות"
+
+#: class-translations.php:136
+msgid "Move Slide Right"
+msgstr "הזז שקופית ימינה"
+
+#: class-translations.php137, class-translations.php138,
+#: class-translations.php:139
+msgid "Slide"
+msgstr "שקופית"
+
+#: class-translations.php138, class-translations.php162,
+#: class-translations.php298, class-translations.php315,
+#: class-translations.php:335
+msgid "Add %s"
+msgstr "הוסף %s"
+
+#: class-translations.php139, class-translations.php164,
+#: class-translations.php169, class-translations.php:234
+msgid "Clone %s"
+msgstr "שכפל %s"
+
+#: class-translations.php140, class-translations.php:141
+msgid "Bullet Color"
+msgstr "צבע תבליט"
+
+#: class-translations.php:142
+msgid "Bullets"
+msgstr "תבליט"
+
+#: class-translations.php143, class-translations.php149,
+#: class-translations.php183, class-translations.php249,
+#: class-translations.php309, class-translations.php:312
+msgid "Change %s"
+msgstr "שנה %s"
+
+#: class-translations.php143, class-translations.php:144
+msgid "Bullet Location"
+msgstr "מיקום תבליט"
+
+#: class-translations.php145, class-translations.php146,
+#: class-translations.php:147
+msgid "Slide Delay"
+msgstr "השהיית שקופית"
+
+#: class-translations.php148, class-translations.php165,
+#: class-translations.php170, class-translations.php:317
+msgid "Delete %s"
+msgstr "מחק %s"
+
+#: class-translations.php148, class-translations.php:331
+msgid "Carousel"
+msgstr "קרוסלה"
+
+#: class-translations.php149, class-translations.php:150
+msgid "Row Width"
+msgstr "רוחב שורה"
+
+#: class-translations.php:151
+msgid "Full-Width Retained Content Width"
+msgstr "רוחב מלא, שמור על רוחב התוכן"
+
+#: class-translations.php:152
+msgid "Normal"
+msgstr "נורמלי"
+
+#: class-translations.php153, class-translations.php:154
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: class-translations.php:155
+msgid "Background"
+msgstr "רקע"
+
+#: class-translations.php156, class-translations.php:157
+msgid "Background Image"
+msgstr "תמונת רקע"
+
+#: class-translations.php:158
+msgid "Vertical Column Alignment"
+msgstr "יישור עמודה אנכי"
+
+#: class-translations.php:159
+msgid "Alignment"
+msgstr "יישור"
+
+#: class-translations.php:160
+msgid "Vertical Content Alignment"
+msgstr "יישור אנכי של תוכן"
+
+#: class-translations.php:161
+msgid "Horizontal Content Alignment"
+msgstr "יישור תוכן אופקי"
+
+#: class-translations.php162, class-translations.php168,
+#: class-translations.php169, class-translations.php170,
+#: class-translations.php:382
+msgid "Column"
+msgstr "עמודה"
+
+#: class-translations.php:163
+msgid "Clear All Row Styles"
+msgstr "נקה עיצוב שורות"
+
+#: class-translations.php164, class-translations.php165,
+#: class-translations.php167, class-translations.php:335
+msgid "Row"
+msgstr "שורה"
+
+#: class-translations.php:166
+msgid "Clear All Column Styles"
+msgstr "נקה את עיצוב העמודות"
+
+#: class-translations.php171, class-translations.php:172
+msgid "Border Color"
+msgstr "צבע גבול"
+
+#: class-translations.php173, class-translations.php251,
+#: page_builder_sandwich/templates/option-margins-and-paddings.php:20
+msgid "Border"
+msgstr "גבול"
+
+#: class-translations.php174, class-translations.php:252
+msgid "Borders"
+msgstr "גבולות"
+
+#: class-translations.php:175
+msgid "Border Style"
+msgstr "סגנון גבול"
+
+#: class-translations.php176, class-translations.php:177
+msgid "Border Thickness"
+msgstr "רווח גבול"
+
+#: class-translations.php:181
+msgid "Toggle Background Image Tint"
+msgstr "החלפת מצב גוון תמונת הרקע"
+
+#: class-translations.php182, class-translations.php184,
+#: class-translations.php185, class-translations.php186,
+#: class-translations.php187, class-translations.php188,
+#: class-translations.php:189
+msgid "Convert to %s"
+msgstr "המר ל %s"
+
+#: class-translations.php:182
+msgid "1 Column"
+msgstr "עמודה 1"
+
+#: class-translations.php:183
+msgid "Columns"
+msgstr "עמודות"
+
+#: class-translations.php184, class-translations.php186,
+#: class-translations.php:188
+msgid "Even %d Columns"
+msgstr "עמודות %d שוות"
+
+#: class-translations.php185, class-translations.php187,
+#: class-translations.php:189
+msgid "Uneven %d Columns"
+msgstr "עמודות לא %d שוות"
+
+#: class-translations.php190, class-translations.php191,
+#: class-translations.php:192
+msgid "Top Spacing"
+msgstr "ריווח מלמעלה"
+
+#: class-translations.php:193
+msgid "Spacing"
+msgstr "ריווח"
+
+#: class-translations.php194, class-translations.php195,
+#: class-translations.php:196
+msgid "Bottom Spacing"
+msgstr "ריווח מלמטה"
+
+#: class-translations.php197, class-translations.php198,
+#: class-translations.php:199
+msgid "Top Thickness"
+msgstr "רווח עליון"
+
+#: class-translations.php:200
+msgid "Row Thickness"
+msgstr "רווח שורה"
+
+#: class-translations.php201, class-translations.php202,
+#: class-translations.php:203
+msgid "Bottom Thickness"
+msgstr "רווח תחתון"
+
+#: class-translations.php204, class-translations.php205,
+#: class-translations.php:206
+msgid "Left Thickness"
+msgstr "רווח שמאלי"
+
+#: class-translations.php207, class-translations.php208,
+#: class-translations.php:209
+msgid "Right Thickness"
+msgstr "רווח ימיני"
+
+#: class-translations.php210, class-translations.php211,
+#: class-translations.php:212
+msgid "Column Width"
+msgstr "רוחב עמודה"
+
+#: class-translations.php:213
+msgid "Spacing & Widths"
+msgstr "ריווח ורוחב"
+
+#: class-translations.php214, class-translations.php215,
+#: class-translations.php:216
+msgid "Horizontal Content Padding"
+msgstr "ריווח תוכן אופקי"
+
+#: class-translations.php217, class-translations.php218,
+#: class-translations.php:219
+msgid "Vertical Content Padding"
+msgstr "ריווח תוכן אנכי"
+
+#: class-translations.php220, class-translations.php221,
+#: class-translations.php:222
+msgid "Column Gap"
+msgstr "פער עמודה"
+
+#: class-translations.php:223
+msgid "Custom Class"
+msgstr "Class מותאם אישית"
+
+#: class-translations.php:224
+msgid "Custom ID"
+msgstr "ID מותאם אישית"
+
+#: class-translations.php:225
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: class-translations.php:226
+msgid "Choose Icon"
+msgstr "בחר אייקון"
+
+#: class-translations.php:227
+msgid "Background & Borders"
+msgstr "רקע וגבולות"
+
+#: class-translations.php228, class-translations.php229,
+#: class-translations.php:230
+msgid "Size"
+msgstr "גודל"
+
+#: class-translations.php231, class-translations.php232,
+#: class-translations.php233,
+#: page_builder_sandwich/templates/option-margins-and-paddings.php:27
+msgid "Padding"
+msgstr "רווח"
+
+#: class-translations.php235, class-translations.php243,
+#: class-translations.php:247
+msgid "Toggle %s"
+msgstr "החלף מצב %s"
+
+#: class-translations.php235, class-translations.php:236
+msgid "Circular Icon"
+msgstr "אייקון עגול"
+
+#: class-translations.php:237
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: class-translations.php238, class-translations.php:239
+msgid "Tooltip Location"
+msgstr "מיקום ה-Tooltip"
+
+#: class-translations.php240, class-translations.php241,
+#: class-translations.php:242
+msgid "Width"
+msgstr "רוחב"
+
+#: class-translations.php:243
+msgid "Shadow"
+msgstr "צל"
+
+#: class-translations.php:244
+msgid "Tooltip Text (Shows on Hover)"
+msgstr "טקסט Tooltip (מוצג במעבר עכבר)"
+
+#: class-translations.php245, class-translations.php:246
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+#: class-translations.php:247
+msgid "Circular Image"
+msgstr "תמונה עגולה"
+
+#: class-translations.php:248
+msgid "Rectangular Image"
+msgstr "תמונה מרובעת"
+
+#: class-translations.php249, class-translations.php:250
+msgid "Text Alignment"
+msgstr "יישור טקסט"
+
+#: class-translations.php:253
+msgid "All Sides"
+msgstr "כל הצדדים"
+
+#: class-translations.php:254
+msgid "Top & Bottom"
+msgstr "למעלה ולמטה"
+
+#: class-translations.php:255
+msgid "Left & Right"
+msgstr "ימינה ושמאלה"
+
+#: class-translations.php:256
+msgid "Top"
+msgstr "למעלה"
+
+#: class-translations.php:257
+msgid "Right"
+msgstr "ימינה"
+
+#: class-translations.php:258
+msgid "Bottom"
+msgstr "למטה"
+
+#: class-translations.php:259
+msgid "Left"
+msgstr "שמאלה"
+
+#: class-translations.php260,
+#: page_builder_sandwich/templates/option-border.php:7
+msgid "None"
+msgstr "כלום"
+
+#: class-translations.php:261
+msgid "Increase Border Thickness"
+msgstr "הגדל עובי גבול"
+
+#: class-translations.php:262
+msgid "Decrease Border Thickness"
+msgstr "הקטן עובי גבול"
+
+#: class-translations.php:263
+msgid "Colors"
+msgstr "צבעים"
+
+#: class-translations.php264, class-translations.php:265
+msgid "Placeholder Color"
+msgstr "צבע Placeholder"
+
+#: class-translations.php:266
+msgid "Focus & Hover Colors"
+msgstr "צבעי פוקוס ומעבר עכבר"
+
+#: class-translations.php267, class-translations.php268,
+#: class-translations.php:269
+msgid "Bullet Icon"
+msgstr "אייקון תבליט"
+
+#: class-translations.php:269
+msgid "Choose %s"
+msgstr "בחר %s"
+
+#: class-translations.php:270
+msgid "Use As Bullet"
+msgstr "השתמש כתבליט"
+
+#: class-translations.php271, class-translations.php272,
+#: class-translations.php:273
+msgid "Font Size"
+msgstr "גודל פונט"
+
+#: class-translations.php274, class-translations.php321,
+#: class-translations.php322, class-translations.php323,
+#: class-translations.php324, class-translations.php325,
+#: class-translations.php:326
+msgid "Heading %d"
+msgstr "כותרת %d"
+
+#: class-translations.php:275
+msgid "Horizontal Rule"
+msgstr "קו אופקי"
+
+#: class-translations.php:276
+msgid "Map"
+msgstr ""
+
+#: class-translations.php277, class-translations.php278,
+#: class-translations.php:365
+msgid "Insert %s"
+msgstr "הכנס %s"
+
+#: class-translations.php278, class-translations.php279,
+#: class-translations.php:280
+msgid "Line Height"
+msgstr "גובה שורה"
+
+#: class-translations.php:281
+msgid "Text Formatting"
+msgstr "עיצוב טקסט"
+
+#: class-translations.php:282
+msgid "Change Type"
+msgstr "שנה סגנון"
+
+#: class-translations.php:283
+msgid "Elements"
+msgstr "אלמנטים"
+
+#: class-translations.php:284
+msgid "Rows & Columns"
+msgstr "שורות ועמודות"
+
+#: class-translations.php285,
+#: page_builder_sandwich/templates/frame-predesigned-picker.php:13
+msgid "Pre-Designed Sections"
+msgstr "עיצובים מוכנים מראש"
+
+#: class-translations.php286, class-translations.php287,
+#: class-translations.php288, class-translations.php:289
+msgid "Zoom level"
+msgstr ""
+
+#: class-translations.php290, class-translations.php291,
+#: class-translations.php292, class-translations.php:293
+msgid "Map Controls"
+msgstr ""
+
+#: class-translations.php:291
+msgid "Hide %s"
+msgstr ""
+
+#: class-translations.php292, class-translations.php:295
+msgid "Show %s"
+msgstr ""
+
+#: class-translations.php294, class-translations.php295,
+#: class-translations.php296, class-translations.php:297
+msgid "Map Marker"
+msgstr ""
+
+#: class-translations.php298, class-translations.php:299
+msgid "Custom Map Marker"
+msgstr ""
+
+#: class-translations.php300, class-translations.php:301
+msgid "Tint Map"
+msgstr ""
+
+#: class-translations.php:302
+msgid "Latitude & Longitude / Address"
+msgstr ""
+
+#: class-translations.php:303
+msgid ""
+"A number pair separated by a comma e.g. \"37.09024, -95.712891\" or enter an"
+" address"
+msgstr ""
+
+#: class-translations.php:304
+msgid "Custom Map Styles"
+msgstr ""
+
+#: class-translations.php:305
+msgid ""
+"Enter custom map styles here. Read about <a "
+"href=\"https://developers.google.com/maps/documentation/javascript/styling#styling_the_default_map\""
+" target=\"_blank\">Google's styling guide</a>. You can use sites like <a "
+"href=\"https://snazzymaps.com\" target=\"_blank\">SnazzyMaps.com</a> to "
+"create custom map styles."
+msgstr ""
+
+#: class-translations.php:306
+msgid "Auto"
+msgstr ""
+
+#: class-translations.php:307
+msgid "Vertical tabs"
+msgstr ""
+
+#: class-translations.php:308
+msgid "Horizontal tabs"
+msgstr ""
+
+#: class-translations.php309, class-translations.php:310
+msgid "Tab Orientation"
+msgstr ""
+
+#: class-translations.php311, class-translations.php312,
+#: class-translations.php:313
+msgid "Tab Alignment"
+msgstr ""
+
+#: class-translations.php:314
+msgid "Stretch"
+msgstr ""
+
+#: class-translations.php315, class-translations.php:316
+msgid "Tab"
+msgstr ""
+
+#: class-translations.php317, class-translations.php:375
+msgid "Tabs"
+msgstr ""
+
+#: class-translations.php:320
+msgid "Text Style"
+msgstr ""
+
+#: class-translations.php:327
+msgid "Blockquote"
+msgstr "מרכאות"
+
+#: class-translations.php:328
+msgid "Preformatted"
+msgstr ""
+
+#: class-translations.php:329
+msgid "Paragraph"
+msgstr ""
+
+#: class-translations.php:330
+msgid "Button"
+msgstr "כפתור"
+
+#: class-translations.php:332
+msgid "Clear Formatting"
+msgstr "נקה עיצוב"
+
+#: class-translations.php:333
+msgid "Code"
+msgstr "קוד"
+
+#: class-translations.php:334
+msgid "Color"
+msgstr "צבע"
+
+#: class-translations.php:336
+msgid "%s Column"
+msgstr "%s עמודה"
+
+#: class-translations.php337, class-translations.php338,
+#: class-translations.php:339
+msgid "%s Columns"
+msgstr "%s עמודות"
+
+#: class-translations.php340, class-translations.php341,
+#: class-translations.php342, class-translations.php343,
+#: class-translations.php344, class-translations.php:345
+msgid "Add a %s-Column Row"
+msgstr "הוסף %s-עמודות"
+
+#: class-translations.php:346
+msgid "Add an N-Column Row"
+msgstr "הוסף N- עמודות"
+
+#: class-translations.php347, class-translations.php:366
+msgid "HTML"
+msgstr "HTML"
+
+#: class-translations.php:349
+msgid "Justify"
+msgstr "יישור לצדדים"
+
+#: class-translations.php:350
+msgid "Media"
+msgstr "מדיה"
+
+#: class-translations.php:351
+msgid "Newsletter Signup Form"
+msgstr "טופס הרשמה לניוזלטר"
+
+#: class-translations.php:352
+msgid "Table"
+msgstr "טבלה"
+
+#: class-translations.php353, class-translations.php372,
+#: page_builder_sandwich/templates/frame-shortcode-picker.php:13
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: class-translations.php:354
+msgid "Insert Shortcode"
+msgstr "הכנס Shortcode"
+
+#: class-translations.php:357
+msgid "Sidebar or Widget Area"
+msgstr "סרגל צד וווידג'ט"
+
+#: class-translations.php358, class-translations.php:387
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#: class-translations.php:359
+msgid "Strikethrough"
+msgstr "קו חוצה"
+
+#: class-translations.php:360
+msgid "More Tools"
+msgstr "כלים נוספים"
+
+#: class-translations.php:361
+msgid "Less Tools"
+msgstr "פחות כלים"
+
+#: class-translations.php:362
+msgid "Underline"
+msgstr "קו תחתון"
+
+#: class-translations.php:363
+msgid "Uppercase"
+msgstr "אותיות רישיות"
+
+#: class-translations.php:364
+msgid "Reset Case"
+msgstr "איפוס אותיות רישיות"
+
+#: class-translations.php365, class-translations.php388,
+#: page_builder_sandwich/templates/frame-widget-picker.php:13
+msgid "Widget"
+msgstr "ווידג'ט"
+
+#: class-translations.php:367
+msgid "Align left"
+msgstr "יישר שמאלה"
+
+#: class-translations.php:368
+msgid "Align center"
+msgstr "יישר למרכז"
+
+#: class-translations.php:369
+msgid "Align right"
+msgstr "יישר ימינה"
+
+#: class-translations.php:370
+msgid "Edit"
+msgstr "ערוך"
+
+#: class-translations.php:371
+msgid "Align None"
+msgstr "בטל יישור"
+
+#: class-translations.php373,
+#: page_builder_sandwich/templates/frame-predesigned-picker.php:28
+msgid "Insert Design"
+msgstr "הכנס עיצוב"
+
+#: class-translations.php:374
+msgid "Insert Content"
+msgstr "הכנס תוכן"
+
+#: class-translations.php:378
+msgid "Visit Link"
+msgstr "בקר בקישור"
+
+#: class-translations.php:380
+msgid "Unlink"
+msgstr "בטל קישור"
+
+#: class-translations.php:381
+msgid "Clone"
+msgstr "שכפל"
+
+#: class-translations.php:383
+msgid "Embed"
+msgstr "הטמעה"
+
+#: class-translations.php:384
+msgid "Remove"
+msgstr "הסר"
+
+#: class-translations.php:389
+msgid "Next"
+msgstr "הבא"
+
+#: class-translations.php:390
+msgid "Close"
+msgstr "סגור"
+
+#: class-translations.php:391
+msgid "Select Image"
+msgstr "בחר תמונה"
+
+#: class-translations.php:392
+msgid "Use Selected Image"
+msgstr "השתמש בתמונות הנבחרות"
+
+#: class-translations.php:393
+msgid "Your email address"
+msgstr "כתובת המייל שלך"
+
+#: class-translations.php:415
+msgid ""
+"Please turn on your admin toolbar from your user profile in order for Page "
+"Builder Sandwich to work correctly."
+msgstr "אנא הפעל את סרגל הניהול שלך מפרופיל המשתמש, על מנת ש-Page Builder Sandwich יעבוד כראוי."
+
+#: class-translations.php:416
+msgid ""
+"There are errors on this page that may affect Page Builder Sandwich from "
+"working correctly. Please check the browser's console for the errors. These "
+"would need to be fixed first. Please contact the theme/plugin author"
+msgstr "ישנן שגיאות בעמוד זה שעשויים להשפיע על Page Builder Sandwich לפעול כראוי. בדוק את המסוף של הדפדפן עבור השגיאות. אנא תקן שגיאות אלו קודם. אנא צור קשר עם מחבר התבנית/תוסף"
+
+#: page_builder_sandwich/templates/frame-html-editor.php:20
+msgid "Paste your HTML above."
+msgstr "הדבק את קוד ה HTML שלך למעלה."
+
+#: page_builder_sandwich/templates/frame-icon-picker.php13,
+#: page_builder_sandwich/templates/frame-predesigned-picker.php13,
+#: page_builder_sandwich/templates/frame-shortcode-picker.php13,
+#: page_builder_sandwich/templates/frame-widget-picker.php:13
+msgid "Search for %s"
+msgstr "חפש %s"
+
+#: page_builder_sandwich/templates/frame-icon-picker.php18,
+#: page_builder_sandwich/templates/frame-predesigned-picker.php18,
+#: page_builder_sandwich/templates/frame-shortcode-picker.php18,
+#: page_builder_sandwich/templates/frame-widget-picker.php:19
+msgid "No matches found"
+msgstr "לא נמצאו תוצאות דומות"
+
+#: page_builder_sandwich/templates/frame-icon-picker.php:26
+msgid ""
+"Only %sDashicons%s are available. %sUpgrading to Premium%s will unlock more "
+"icons, bullet & button icons and the ability to upload your own."
+msgstr "רק %sDashicons%s זמין. שדרוג% ל% s Premium  יאפשר שימוש ביותר אייקונים, בולטים, כפתורים עם אייקונים ואת היכולת להעלות משלך."
+
+#: page_builder_sandwich/templates/frame-icon-picker.php:35
+msgid ""
+"You can upload your own icons by dropping an SVG file anywhere to upload it."
+" You can find more info in the %sdocs%s"
+msgstr "אתה יכול להעלות אייקונים משלך ידי שחרור קובץ SVG בכל מקום כדי להעלות אותו. אתה יכול למצוא עוד מידע בs%מסמכים%"
+
+#: page_builder_sandwich/templates/frame-shortcode-picker.php:25
+msgid "You can also type in shortcodes directly in the content."
+msgstr "ניתן גם להקליד shortcodes ישירות בתוכן."
+
+#: page_builder_sandwich/templates/frame-widget-picker.php:35
+msgid ""
+"Some widgets that use specialized scripts and modal forms may not work "
+"correctly. For those, please use the sidebar element instead."
+msgstr "ווידג'טים מסוימים שמשתמשים בסקריפטים מיוחדים לא יפעלו כראוי. עבור אלה, השתמשו ברכיב סרגל הצד במקום."
+
+#: page_builder_sandwich/templates/option-border.php:8
+msgid "Solid"
+msgstr "רצוף"
+
+#: page_builder_sandwich/templates/option-border.php:9
+msgid "Dashed"
+msgstr "מקווקו"
+
+#: page_builder_sandwich/templates/option-border.php:10
+msgid "Dotted"
+msgstr "מנוקד"
+
+#: page_builder_sandwich/templates/option-border.php:11
+msgid "Double"
+msgstr "כפול"
+
+#: page_builder_sandwich/templates/option-border.php:12
+msgid "Groove"
+msgstr "חרוט"
+
+#: page_builder_sandwich/templates/option-border.php:13
+msgid "Ridge"
+msgstr "בולט"
+
+#: page_builder_sandwich/templates/option-border.php:14
+msgid "Inset"
+msgstr "שקוע"
+
+#: page_builder_sandwich/templates/option-border.php:15
+msgid "Outset"
+msgstr "מובלט"
+
+#: page_builder_sandwich/templates/option-margins-and-paddings.php:5
+msgid "Margin"
+msgstr "שוליים"
+
+#: page_builder_sandwich/templates/preview-premium-element.php:7
+msgid "Go Premium Now"
+msgstr "עבור לפרימיום עכשיו!"
+
+#: page_builder_sandwich/templates/preview-premium-element.php:9
+msgid "Click anywhere to close"
+msgstr "לחץ בכל מקום לסגירה"
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:4
+msgid "Page Builder Sandwich Needs a Favor.."
+msgstr "Page Builder Sandwich צריך טובה.."
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:5
+msgid ""
+"Help us by allowing PBS to send usage data back to us, so that we can add "
+"more features, publish case studies, awesome stats and pretty graphs!"
+msgstr "עזרו לנו בכך שתאפשרו ל PBS לשלוח נתוני שימוש בחזרה אלינו, כדי שנוכל להוסיף תכונות נוספות, לפרסם מחקרים, סטטיסטיקה מדהימה וגרפים יפים!"
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:7
+msgid "We will <strong>NOT</strong> send any sensitive information."
+msgstr "אנו <strong> לא </ strong> נשלח מידע רגיש."
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:8
+msgid "This will <strong>NOT</strong> affect the speed of your site at all."
+msgstr "זה <strong> לא </ strong> ישפיע על המהירות של האתר שלך."
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:9
+msgid "Data will <strong>ONLY</strong> be used to improve PB Sandwich."
+msgstr "נתונים ישמשו כדי לשפר את PB Sandwich  <strong> בלבד </ strong>"
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:12
+msgid "Yes! I&apos;ll help!"
+msgstr "כן! I&apos;ll עזור!"
+
+#: page_builder_sandwich/templates/stats-tracking-optin.php:15
+msgid "No thanks"
+msgstr "לא תודה"

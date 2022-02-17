@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../css/animate.css">
+		<link rel="stylesheet" href="../css/style-demo.css">
+		<link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="media_query.css">
+		<title> enedScroll </title>
+		<style>
+			figure{
+				display: block;
+				margin: 0 auto;
+				padding: 35px;
+				width: 60%;
+			}
+			picture{
+				width: 100%;
+				max-height: 475px;
+			}
+			img{
+				width: 100%;
+				max-height: 475px;
+				box-shadow: 0 20px 45px #af770e;
+				border-radius: 5px;
+			}
+			.indicators{
+				padding-top: 140px;
+				padding-bottom: 140px;
+			}
+			.indicator{
+			    width: 5px;
+			    height: 5px;
+			    border-radius: 100%;
+			    margin-bottom: 20px;
+			    background: #ad7610;
+
+			}
+			.indicator.current{
+				background: #2b1e05;
+			}
+		</style>
+	</head>
+	<body>
+
+		<section class="head-screen w-100 middle">
+			<div class="middle-item text-center">
+				<div class="container">
+			
+					<header>
+						<h2 class="pacifico">enedScroll</h2>
+					</header>
+					<p class="medium">Demonstration page</p>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="stage_manager">
+			<div class="container manager">
+				<h6>Scene manager</h6>
+				<div class="row">
+					<div class="col-3">
+						<label for="pin_stage_checkbox" class="normal">Pin stage</label>
+						<input type="checkbox" name="pin_stage" id="pin_stage_checkbox" disabled="disabled">
+					</div>
+					<div class="col-3">
+						<label for="visualisation_checkbox" class="normal">Enable visualisation</label>
+						<input type="checkbox" name="visualisation_stage" id="visualisation_checkbox" disabled="disabled">
+					</div>
+					<div class="w-100"></div>
+					<div class="break"></div>
+					<div class="col-3">
+						<label for="trigger_offset" class="normal">Trigger offset</label>
+						<input type="number" name="trigger_offset" id="trigger_offset" value="100">
+					</div>
+					<div class="col-3">
+						<label for="selector_top_offset" class="normal">Selector Top offset</label>
+						<input type="number" name="selector_top_offset" id="selector_top_offset" value="0">
+					</div>
+					<div class="col-3">
+						<label for="selector_bottom_offset" class="normal">Selector Bottom offset</label>
+						<input type="number" name="selector_bottom_offset" id="selector_bottom_offset" value="0">
+					</div>
+				</div>
+			</div><!-- container --><!-- manager -->
+		</section>
+
+		<section class="scene_area w-100 middle">
+			<div class="stage text-center middle">
+				
+				<div class="container middle-item">
+					<div class="stage-target">
+						<header>
+							<h2 class="amaranth">Exhibition</h2>
+							<p>To see results, use device $screen > 768px</p>
+						</header>
+						<div class="row">
+							
+							<div class="col-sm-12 col-md-9 text-center">
+								<figure class="sm-full-w">
+									<picture><img src="https://images.unsplash.com/photo-1505903658795-8d3cc48039e4?auto=format&fit=crop&w=654&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt=""></picture>
+								</figure>
+								<figure class="sm-full-w">
+									<picture><img src="https://images.unsplash.com/photo-1504198266287-1659872e6590?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt=""></picture>
+								</figure>
+								<figure class="sm-full-w">
+									<picture><img src="https://images.unsplash.com/photo-1477505982272-ead89926a577?auto=format&fit=crop&w=634&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt=""></picture>
+								</figure>
+								<figure class="sm-full-w">
+									<picture><img src="https://images.unsplash.com/photo-1495729268136-fef399f1b60d?auto=format&fit=crop&w=1053&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt=""></picture>
+								</figure>
+								<figure class="sm-full-w">
+									<picture><img src="https://images.unsplash.com/photo-1495835788122-ca48931258be?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt=""></picture>
+								</figure>
+							</div>
+							<div class="col-md-2 hidden-sm hidden-md">
+								<div class="indicators">
+									<div class="indicator"></div>
+									<div class="indicator"></div>
+									<div class="indicator"></div>
+									<div class="indicator"></div>
+									<div class="indicator"></div>
+								</div>
+							</div>
+
+						</div>
+
+					</div><!-- stage-target -->
+				</div><!-- container -->
+
+			</div>
+		</section>
+
+		<div class="scroll-fix w-100 middle">
+			<div class="middle-item text-center" style="color:#ddd;">
+				<h4 class="bold">Some space</h4>
+			</div>
+		</div>
+
+		<footer class="w-100">
+			<p>enedScroll &copy; 2017.</p>
+		</footer>
+
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../core_build.js"></script>
+
+	<script>
+		(function ($) {
+
+
+			var winHeight = $(window).height();
+			var StageHeight = parseInt( ( 0.35 * winHeight ), 10 );
+			var ScrollFix = parseInt( ( 0.8 * winHeight ), 10 );
+
+			$('.stage').css('min-height', StageHeight + 'px');
+			$('.scroll-fix').css('min-height', ScrollFix + 'px');
+
+			var TriggerFromWindow = 0.05 * $(window).height();
+
+			/*
+				STAGE MANAGER
+			*/
+			var $pin_stage_checkbox = $('#pin_stage_checkbox');
+			var $visualisation_checkbox = $('#visualisation_checkbox');
+			var $trigger_offset = $('#trigger_offset');
+			var $selector_top_offset = $('#selector_top_offset');
+			var $selector_bottom_offset = $('#selector_bottom_offset');
+
+			var MANAGER = {
+				TRIGGER: TriggerFromWindow,
+				SELECTOR_TOP: 0,
+				SELECTOR_BOTTOM: 0,
+				SETPIN: false,
+				VISUAL: false,
+			};
+
+			$trigger_offset.val( MANAGER.TRIGGER );
+
+			var setPin = function( scene ){
+				return;
+			};
+
+			var setVisualisation = function(){
+				return;
+			};
+
+			var other = function( scene ){
+
+				var indicators_duration = ( $('figure:last').position().top ) / 1000;
+				scene.pin( $('.indicators'), [[indicators_duration, 0.1 ]] );
+
+				for( var x = 0; x < $('figure').length; x++ ){
+
+					var duration = $( $('figure')[x] ).outerHeight() / 1000;
+					var offset = $( $('figure')[x] ).position().top / 1000;
+					scene.setPoint( duration, offset + 0.15, 'figure-' + x );
+
+				}
+				
+				scene.is( 'figure-0', 'BEFORE ENTER AFTER', function(e){
+					if( e.state === 'ENTER' ){
+						$('.indicator').eq(0).addClass('current');
+					}else{
+						$('.indicator').eq(0).removeClass('current');
+					}
+				});
+				scene.is( 'figure-1', 'BEFORE ENTER AFTER', function(e){
+					if( e.state === 'ENTER' ){
+						$('.indicator').eq(1).addClass('current');
+					}else{
+						$('.indicator').eq(1).removeClass('current');
+					}
+				});
+				scene.is( 'figure-2', 'BEFORE ENTER AFTER', function(e){
+					if( e.state === 'ENTER' ){
+						$('.indicator').eq(2).addClass('current');
+					}else{
+						$('.indicator').eq(2).removeClass('current');
+					}
+				});
+				scene.is( 'figure-3', 'BEFORE ENTER AFTER', function(e){
+					if( e.state === 'ENTER' ){
+						$('.indicator').eq(3).addClass('current');
+					}else{
+						$('.indicator').eq(3).removeClass('current');
+					}
+				});
+				scene.is( 'figure-4', 'BEFORE ENTER AFTER', function(e){
+					if( e.state === 'ENTER' ){
+						$('.indicator').eq(4).addClass('current');
+					}else{
+						$('.indicator').eq(4).removeClass('current');
+					}
+				});
+
+
+			};
+
+			var stage = function(){
+
+				var myTrigger = new enedScroll.Trigger( 'my-trigger', MANAGER.TRIGGER );
+				var Scene = new enedScroll( $('.scene_area'), myTrigger, {
+					selectors: [ MANAGER.SELECTOR_TOP, MANAGER.SELECTOR_BOTTOM ],
+					visual: setVisualisation()
+				});
+
+				//setPin( Scene );
+				other( Scene );
+
+			};
+			stage();
+
+			$pin_stage_checkbox.on('change', function(){
+				return;
+			});
+
+			$visualisation_checkbox.on('change', function(){
+				return;
+			});
+
+			$trigger_offset.on('change', function(){
+
+				var value = $(this).val();
+				MANAGER.TRIGGER = parseInt( value, 10 );
+				stage();
+
+			});
+			$selector_top_offset.on('change', function(){
+
+				var value = $(this).val();
+				MANAGER.SELECTOR_TOP = parseInt( value, 10 );
+				stage();
+
+			});
+			$selector_bottom_offset.on('change', function(){
+
+				var value = $(this).val();
+				MANAGER.SELECTOR_BOTTOM = parseInt( value, 10 );
+				stage();
+
+			});
+
+
+		})(jQuery);
+	</script>
+
+
+	</body>
+</html>
+
+<!-- Photo by Amy on Unsplash
+ -->

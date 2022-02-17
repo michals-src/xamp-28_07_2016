@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="/css/demo.css">
+		<title> enedScroll ⁝⁝ DEMO ☕</title>
+	</head>
+	<body>
+		
+		<header role="main">
+			<div class="container">
+				<div class="wrap wrap-inner">
+		
+					<div class="left-side">
+						<h2 class="text-logo"> enedScroll </h2>
+					</div>
+
+					<div class="right-side">
+						<nav class="horizontal">
+							<ul>
+								<li><a href="/">Homepage</a></li>
+								<li class="current-item"><a href="#">Pinning by steps</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		
+		<div class="some-space">
+			<div class="center-parent">
+				<div class="center-child">
+					<h2>Pinning by steps</h2>
+				</div>
+			</div>
+		</div>
+		<div class="scene text-center">
+			<div class="container j-wh">
+				
+			<div class="item">
+
+				<div class="center-parent">
+					<div class="center-child">
+						
+						<div class="pin-parent">
+						  <div class="box">
+							<h1 class="text-example"> Simple box </h1>
+						  </div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="some-space"></div>
+		</div>
+
+
+	
+		<footer role="main">
+			<p> enedScroll demonstration </p>
+		</footer>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/enedScroll.js"></script>
+		
+		<script type="text/javascript">
+			(function($){
+				var w = $(window), wW = w.width(), wH = w.height();
+				$('.j-wh').css({ 'height': wH + 'px' });
+
+				$('.pin-parent').css({ 'width': $('.item').width() + 'px'});
+
+			})(jQuery);
+		</script>
+
+		<script type="text/javascript">
+			
+			(function($){
+
+				enedScroll.option({ 'show_all_triggers': true, 'show_all_selectors': true });
+
+				var trigger = new enedScroll.Trigger( 'trigger-1', { top: '35%' } );
+				var scene 	= new enedScroll( $('.item'), { top: 0, bottom: 0 }, trigger );
+
+				scene.addCreation(function(e){
+
+					var plugins = e.plugins, pin = plugins.pin;
+
+					var myPin = pin( $('.pin-parent') );
+					var timeline = [
+						{ duration: 100, offset: 0},
+						{ duration: 100, offset: 250},
+						{ duration: 100, offset: 450}
+					];
+					myPin.add( timeline );
+
+
+				});
+
+
+
+
+			})(jQuery);
+
+		</script>
+
+	</body>
+</html>

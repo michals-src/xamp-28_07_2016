@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="/css/demo.css">
+		<title> enedScroll ⁝⁝ DEMO ☕</title>
+	</head>
+	<body>
+		
+		<header role="main">
+			<div class="container">
+				<div class="wrap wrap-inner">
+		
+					<div class="left-side">
+						<h2 class="text-logo"> enedScroll </h2>
+					</div>
+
+					<div class="right-side">
+						<nav class="horizontal">
+							<ul>
+								<li><a href="/">Homepage</a></li>
+								<li class="current-item"><a href="#">Carousel</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		
+		<div class="some-space">
+			<div class="center-parent">
+				<div class="center-child">
+					<h2>Carousel animation</h2>
+				</div>
+			</div>
+		</div>
+		<div class="scene text-center">
+			<div class="container j-wh">
+				
+			<div class="item" style="height: 500px;">
+
+				<div class="center-parent">
+					<div class="center-child">
+						
+						  <div class="box">
+							<h1 class="text-example"> Simple box </h1>
+						  </div>
+
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="some-space"></div>
+		</div>
+
+
+	
+		<footer role="main">
+			<p> enedScroll demonstration </p>
+		</footer>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/enedScroll.js"></script>
+		
+		<script type="text/javascript">
+			(function($){
+				var w = $(window), wW = w.width(), wH = w.height();
+				$('.j-wh').css({ 'height': wH + 'px' });
+
+			})(jQuery);
+		</script>
+
+		<script type="text/javascript">
+			
+			(function($){
+
+				enedScroll.option({ 'show_all_triggers': true, 'show_all_selectors': true });
+
+				var trigger = new enedScroll.Trigger( 'trigger-1', { top: '25%' } );
+				var scene 	= new enedScroll( $('.item'), { top: 0, bottom: 0 }, trigger );
+
+				var interval;
+				var rotate = 0;
+
+				$('.box').css({'position': 'relative'});
+				var carousel = function(){
+					
+					if( rotate <= 360 ){
+						// Rotate to 360 degrees
+						$('.box').css({ 'transform': 'rotate(' + rotate + 'deg)' });
+						rotate += 2;
+					}else {
+						// Reset degrees
+						rotate = 0;
+					}
+
+				};
+
+				// Needed to get setInterval once if is during
+				var isActive = 0;
+
+				scene.addCreation(function(e){
+
+					var plugins = e.plugins, caller = plugins.call;
+
+					caller( 'during', function(){
+
+						if( isActive === 0 ){
+							interval = setInterval( carousel, 15 );
+							isActive = 1;
+						}
+
+					});
+					caller( 'before after', function(){
+						clearInterval( interval );
+						isActive = 0;
+					});
+
+
+				});
+
+
+
+
+			})(jQuery);
+
+		</script>
+
+	</body>
+</html>

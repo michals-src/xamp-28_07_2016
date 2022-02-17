@@ -1,0 +1,381 @@
+html,body{
+	height: 100%;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box !important;
+}
+
+.container,
+.container-fluid{
+	padding: 0 !important;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Bold..ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url(../fonts/Monoton-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Medium..ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.ttf);
+    font-weight: 400;
+}
+
+.amaranth{
+	font-family: "Amaranth";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.amaranth.bold{
+	font-weight: 700;
+	font-weight: bold;
+}
+
+.pacifico{
+	font-family: "Pacifico";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #6dc7f3;
+	font-family: "Quicksand";
+	font-weight: 400;
+	color: #fff;
+}
+
+.middle{
+	display: table;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.middle .middle-item{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1{ font-size: 140px; }
+h2{ font-size: 110px; }
+h3{ font-size: 91px; }
+h4{ font-size: 65px; }
+h5{ font-size: 46px; }
+h6{ font-size: 38px; }
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400 !important;
+	font-weight: normal !important;
+	margin: 20px 0 10px 0;
+}
+
+h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold{
+	font-weight: 700 !important;
+	font-weight: bold !important;
+}
+
+p{
+	font-size: 27px;
+}
+
+p.bold{
+	font-weight: 700;
+}
+
+p.small{
+	font-size: 18px;
+}
+
+p.medium{
+	font-size: 34px;
+}
+
+p.large{
+	font-size: 52px;
+}
+
+.friendly{
+	margin-bottom: -15px;
+}
+
+.act{
+	height: 100%;
+}
+
+.sc{
+	position: relative;
+	z-index: 10;
+}
+
+.target-place{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.target-place picture img{
+	width: 100%;
+}
+
+.sc1-welcome{
+	font-family: "Monoton", sans-serif;
+	font-weight: 400;
+}
+
+.sc1-welcome .signature h2{
+	text-shadow: 0 20px 35px rgba(0, 0, 0, 0.20);
+	transition: transform .25s ease;
+}
+
+.stage{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index: 10;
+}
+
+.act-1 .child span{
+	display: inline-block;
+}
+
+.act{
+	width: 100%;
+	height: 100%;
+
+}
+
+.wallpaper{
+	position: fixed;
+	top: 350px;
+	left: 0;
+}
+
+.progress-bar{
+	width: 100%;
+	height: 2px;
+	position: fixed;
+    bottom: 50px;
+    left: 0;
+    opacity: 0;
+}
+
+.progress-line{
+	width: 85%;
+	margin: 0 auto;
+	height: 2px;
+	background: rgba(0,0,0,0.1);
+}
+
+.progress-line .progress{
+	display: block;
+    width: 0;
+    background: #888;
+    height: 2px;
+}
+
+.information-container{
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 100%;
+}
+
+button{
+	border: none;
+    border-bottom: 3px solid #164b9e;
+    background: #266ddc;
+    color: #fff;
+    border-radius: 5px;
+    padding: 9px 21px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+a{
+	color: #266ddc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p.label{
+	font-size: 16px;
+}
+
+p.label-medium{
+	font-size: 20px;
+}
+
+a button{
+	cursor: pointer;
+}
+
+a:hover button{
+	background: #3f81e8;
+}
+
+footer{
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 20px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.col-1 {
+  -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<meta charset="utf-8"/>
+		<title>enedScroll - Pin helper function demo</title>
+	</head>
+	<body>
+	<div class="container">
+		<h2 class="title">Pin helper function demo</h2>
+		<a href="http://enedscroll.eu/documentation.php" class="link">See the documentation &rarr;</a>
+	</div>
+	<div class="space-02">
+		<div class="element-02">
+			<h2 style="margin: 0;">My text in <code>.element</code></h2>
+		</div>
+	</div>
+	<div style="height: 1500px"></div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="../js/enedscroll.min.js"></script>
+<script>
+(function($) {
+
+
+	enedscroll.option({
+		'enedSetColor': true,
+		'selectorsSetColor': true,
+		'selectorsColor': '#9a9ea5'
+	});
+
+	$('.space-02').ened()
+		.set({
+			before: function(data){
+				var helpers = data.helpers,
+					pin		= helpers.pin;
+
+					pin.before({parent: $(data.this), item: '.element-02'}, 2000);
+			},
+			focusin: function(data){
+				var helpers = data.helpers,
+					pin		= helpers.pin;
+
+					pin.set({parent: $(data.this), item: '.element-02'}, 2000);
+					$('.element-02').css({'width': '100%', 'text-align': 'center'});
+			},
+			after: function(data){
+				var helpers = data.helpers,
+					pin		= helpers.pin;
+
+					pin.after({parent: $(data.this), item: '.element-02'}, 2000);
+			}
+		})
+		.get();
+
+
+})(jQuery);
+</script>
+	</body>
+</html>

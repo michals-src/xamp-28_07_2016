@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style-demo.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/media_query.css">
+		<title> enedScroll </title>
+		<style>
+			picture{
+				width: 100%;
+				height: 350px;
+				overflow: hidden;
+		   		box-shadow: 0 20px 40px #8c6116;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			.row{
+				margin-bottom: 50px;
+				box-sizing: border-box;
+			}
+			.sec2{
+				opacity: 0;
+				-webkit-transition: opacity 0.5s ease;
+				-moz-transition: opacity 0.5s ease;
+				-ms-transition: opacity 0.5s ease;
+				-o-transition: opacity 0.5s ease;
+				transition: opacity 0.5s ease;
+			}
+			.oIn{
+				opacity: 1;
+			}
+		</style>
+	</head>
+	<body>
+
+		<section class="head-screen w-100 middle">
+			<div class="middle-item text-center">
+				<div class="container">
+			
+					<header>
+						<h2 class="pacifico">enedScroll</h2>
+					</header>
+					<p class="medium">Demonstration page</p>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="scene_area w-100 middle">
+			<div class="stage text-center middle">
+				
+				<div class="container middle-item">
+					<div class="stage-target">
+
+						<header>
+							<h2 class="amaranth">Showing section</h2>
+							<p>Changing opacity by scrolling and add class.</p>
+						</header>
+
+						<div class="row sec1 sm-nopad">
+
+							<div class="col-sm-6 col-md-4 figure sm-nopad">
+								<picture>
+									<img src="https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1047&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+								</picture>
+							</div>
+							<div class="col-sm-6 col-md-4 figure sm-nopad">
+								<picture>
+									<img src="https://images.unsplash.com/photo-1418075285575-c402f1f7340f?auto=format&fit=crop&w=1051&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+								</picture>
+							</div>
+							<div class="col-sm-12 col-md-4 figure sm-pad">
+								<h5>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur at, quidem reprehenderit atque minus. Corporis, ad, qui, facilis perferendis modi porro optio enim, nobis eius repellat totam! Cupiditate, tenetur.
+								</h5>
+							</div>
+
+						</div>
+
+						<div class="row sec2">
+
+							<div class="col-sm-6 col-md-4 figure sm-nopad">
+								<picture>
+									<img src="https://images.unsplash.com/photo-1436280331459-4138e2ced502?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+								</picture>
+							</div>
+							<div class="col-sm-6 col-md-4 figure sm-nopad">
+								<picture>
+									<img src="https://images.unsplash.com/photo-1507246248612-8e2707238ede?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+								</picture>
+							</div>
+							<div class="col-sm-12 col-md-4 figure sm-nopad">
+								<picture>
+									<img src="https://images.unsplash.com/photo-1470224114660-3f6686c562eb?auto=format&fit=crop&w=675&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+								</picture>
+							</div>
+
+						</div>
+
+					</div><!-- stage-target -->
+				</div><!-- container -->
+
+			</div>
+		</section>
+
+		<div class="scroll-fix w-100 middle">
+			<div class="middle-item text-center" style="color:#ddd;">
+				<h4 class="bold">Some space</h4>
+			</div>
+		</div>
+
+		<footer class="w-100">
+			<p>enedScroll &copy; 2017.</p>
+		</footer>
+
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/enedScroll.js"></script>
+
+	<script>
+		(function ($) {
+
+
+			var winHeight = $(window).height();
+			var StageHeight = parseInt( ( 0.35 * winHeight ), 10 );
+			var ScrollFix = parseInt( ( 0.8 * winHeight ), 10 );
+
+			$('.stage').css('min-height', StageHeight + 'px');
+			$('.scroll-fix').css('min-height', ScrollFix + 'px');
+
+			var TriggerFromWindow = 0.2 * $(window).height();
+
+
+			var myTrigger = new enedScroll.Trigger( 'my-trigger', TriggerFromWindow );
+			var scene = new enedScroll( $('.scene_area'), myTrigger, {
+				selectors: [ 0, 0 ],
+				visual: {
+					'show_trigger': true,
+					'show_selectors': true
+				}
+			});
+
+			scene.add( $('.sec1'), [
+				[{ 'opacity': '[0,1]' }, 0.35, 0, 'section_1']
+			]);
+
+			scene.setPoint( 0, ( scene.var('section_1').offset_done + 0.25 ), 'section_2_point' );
+			scene.is('section_2_point', 'BEFORE AFTER', function(e){
+				if( e.state === "BEFORE" ){
+					if( $('.sec2').hasClass('oIn') ){
+						$('.sec2').removeClass('oIn');
+					}
+				}else{
+					if( ! $('.sec2').hasClass('oIn') ){
+						$('.sec2').addClass('oIn');
+					}	
+				}
+			});
+
+
+
+		})(jQuery);
+	</script>
+
+
+	</body>
+</html>
+
+<!-- Photo by Amy on Unsplash
+ -->

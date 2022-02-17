@@ -1,0 +1,430 @@
+html,body{
+	height: 100%;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box !important;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Bold..ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url(../fonts/Monoton-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Medium..ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.ttf);
+    font-weight: 400;
+}
+
+.amaranth{
+	font-family: "Amaranth";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.quicksand{
+	font-family: "Quicksand";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.pacifico{
+	font-family: "Pacifico";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.monoton{
+	font-family: "Monoton";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.bold{
+	font-weight: 700;
+	font-weight: bold;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	font-family: "Quicksand";
+	font-weight: 400;
+	color: #273232;
+}
+
+.middle{
+	display: table;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.middle .middle-item{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+@media (max-width: 767px){
+	.container{
+		width: auto !important;
+
+	}
+}
+
+h1{ font-size: 10rem; }
+h2{ font-size: 8.2rem; }
+h3{ font-size: 6rem; }
+h4{ font-size: 4.8rem; }
+h5{ font-size: 3.2rem; }
+h6{ font-size: 2.4rem; }
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400 !important;
+	font-weight: normal !important;
+	margin: 20px 0 10px 0;
+}
+
+@media (max-width: 1200px){
+	h1{ font-size: 8rem; }
+	h2{ font-size: 5.8rem; }
+	h3{ font-size: 5rem; }
+	h4{ font-size: 4rem; }
+	h5{ font-size: 3.2rem; }
+	h6{ font-size: 2.4rem; }
+}
+
+@media (max-width: 992px){
+	h1{ font-size: 5.5rem; }
+	h2{ font-size: 4.7rem; }
+	h3{ font-size: 4.1rem; }
+	h4{ font-size: 3.6rem; }
+	h5{ font-size: 2.6rem; }
+	h6{ font-size: 2rem; }
+	h1, h2, h3, h4, h5, h6{
+		margin: 15px 0 7px 0;
+	}
+}
+
+@media (max-width: 768px){
+	h1{ font-size: 3.35rem; }
+	h2{ font-size: 2.7rem; }
+	h3{ font-size: 2.2rem; }
+	h4{ font-size: 1.8rem; }
+	h5{ font-size: 1.5rem; }
+	h6{ font-size: 1.3rem; }
+	h1, h2, h3, h4, h5, h6{
+		margin: 12px 0 4px 0;
+	}
+}
+
+h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold{
+	font-weight: 700 !important;
+	font-weight: bold !important;
+}
+
+p{
+	font-size: 1.6em;
+}
+
+p.label{
+	font-size: 16px;
+}
+
+p.small{
+	font-size: 18px;
+}
+
+p.medium{
+	font-size: 34px;
+}
+
+p.large{
+	font-size: 52px;
+}
+
+@media (max-width: 992px){
+	p{
+		font-size: 1.3em;
+	}
+	p.medium{
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 768px){
+	p{
+		font-size: 1em;
+	}
+	p.medium{
+		font-size: 1.15em;
+	}
+}
+
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+
+.friendly{
+	margin-top: 10px !important;
+	margin-bottom: 8px !important;
+}
+
+header{
+	display: block;
+	font-family: "Amaranth";
+	font-weight: 700;
+	font-weight: bold;
+}
+
+.blocked{
+	overflow: hidden;
+}
+
+.screnn-v600{
+	max-width: 600px;
+}
+
+.normal-screen{
+	margin-top: 120px;
+	margin-bottom: 180px;
+}
+
+@media (max-width: 768px){
+	.normal-screen{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+}
+
+.normal-screen header{
+	display: block;
+	text-align: center;
+	margin-top: 110px;
+	margin-bottom: 65px;
+}
+
+picture{
+	display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+picture.left{
+	box-shadow: 40px 40px 80px #d8d8d8;
+}
+picture.right{
+	box-shadow: -40px 40px 80px #d8d8d8;
+}
+picture.h500{
+	max-height: 500px;
+}
+picture.h400{
+	max-height: 400px;
+}
+picture.h300{
+ 	max-height: 300px;
+}
+
+a{
+	text-decoration: none;
+	padding: 8px 10px;
+	border-bottom: 2px solid #444;
+	color: #444;
+	font-weight: 700;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #888;
+	border-bottom: 2px solid #888;
+}
+
+ul{
+	padding: 18px 0;
+	list-style-type: disc;
+}
+
+ul li,
+ul li a{
+	border: none;
+}
+
+ul li{
+	padding: 8px 10px;
+}
+
+ul li a{
+	display: block;
+	border: none;
+	padding: 0;
+}
+
+ul li:hover,
+ul li a:hover,
+ul li:hover a{
+	border: none;
+}
+
+
+.head-screen{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.act-header{
+	width: 100%;
+	background: #f8f8f8 url(../images/plant-large.png) bottom right no-repeat;
+	background-size: 100% 100%;
+}
+
+.act-header header{
+	position: relative;
+	opacity: 0;
+}
+.act-header header.animated{
+	animation: enter 2.5s ease 0.85s;
+}
+.act-header header.in{
+	opacity: 1;
+}
+
+.navigation{
+	position: absolute !important;
+	top: 0;
+	right: 0;
+	height: 100%;
+	z-index: 100;
+	background: url(../images/nav-shadow.png) left center no-repeat;
+}
+nav[role="main"]{
+	position: relative;
+	left: 10%;
+	text-align: left;
+}
+
+nav[role="main"] header{
+	color: #ddd;
+	font-weight: 700;
+}
+
+nav[role="main"] a{
+	color: #c4c4c4;
+	font-weight: 700;
+	font-family: "Amaranth", sans-serif;
+	text-decoration: none;
+	border: none;
+	padding: 0;
+}
+
+@keyframes enter{
+	0%{
+		opacity: 0;
+		transform: translateY(-45%);
+	}
+	750%{
+		opacity: 0.8;
+		transform: translateY(-5%);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.act-header .describe{
+	opacity: 0;
+	margin-top: -10%;
+}
+
+.screen-documentation img{
+	margin-top: -40%;
+}
+
+@media (max-width: 768px){
+	.screen-documentation .text{
+		padding: 0 30px !important;
+	}
+	.screen-documentation .text p{
+		margin-top: 75px !important;
+	}
+}
+
+.screen-fullpage-example a{
+	border: none;
+}
+
+
+.screen-buy img{
+	margin-top: -20%;
+}
+
+.screen-demos .main-title span{
+	display: inline-block;
+}
+.screen-demos .row header{
+	color: #c5caca;
+	margin-bottom: -10px;
+}

@@ -1,0 +1,316 @@
+html{
+	height: 100%;
+}
+
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Bold..ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(../fonts/Amaranth-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url(../fonts/Monoton-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Medium..ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.ttf);
+    font-weight: 400;
+}
+
+.amaranth{
+	font-family: "Amaranth";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.quicksand{
+	font-family: "Quicksand";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.pacifico{
+	font-family: "Pacifico";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.monoton{
+	font-family: "Monoton";
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.bold{
+	font-weight: 700;
+	font-weight: bold;
+}
+
+body{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-weight: normal;
+	background: #fff;
+}
+
+@media( max-width: 760px ){
+	.container-fluid{
+		padding: 0 !important;
+		width: 100%;
+	}
+}
+
+section,
+div,
+field,
+fieldset,
+picture,
+video,
+footer{
+	display: block;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 64px;
+}
+h2{
+	font-size: 52px;
+}
+h3{
+	font-size: 46px;
+}
+h4{
+	font-size: 35px;
+}
+h5{
+	font-size: 27px;
+}
+h6{
+	font-size: 21px;
+}
+
+p{
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+span{
+	display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.large{
+	font-size: 32px;
+}
+
+.medium{
+	font-size: 22px;
+}
+
+.normal{
+	font-size: 16px;
+}
+
+.small{
+	font-size: 12px;
+}
+
+.w-100{
+	width: 100% !important;
+}
+
+.middle{
+	display: table;
+	height: 100%;
+}
+.middle-item{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.text-center{
+	text-align: center !important;
+}
+.text-left{
+	text-align: center !important;
+}
+.text-right{
+	text-align: center !important;
+}
+
+
+
+.break{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+	height: 2px;
+	background: #57575f;
+	border-bottom: 1px solid #fff;
+	border-radius: 70%;
+}
+
+.head-screen{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	min-height: 365px;
+}
+
+.manager{
+	background: #eaeaf1;
+	padding: 35px !important;
+	border-radius: 7px 7px 0 0;
+	border: 6px double #9393a2;
+	box-shadow: inset 2px 2px 0 #fff;
+	border-bottom: none;
+}
+
+@media (max-width: 760px){
+	.manager{
+		border-radius: none;
+		border: none;
+	}
+}
+
+.manager input[type="text"],
+.manager input[type="number"]{
+    border: 1px solid #82828c;
+    padding: 5px 12px 4px 12px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    box-shadow: 2px 1px 0 #fff;
+    width: 100%;
+}
+
+
+.scene_area{
+	width: 100%;
+	font-weight: bold;
+	font-weight: 700;
+	color: #7d560b;
+	padding-left: 40px;
+	padding-right: 40px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+@media (max-width: 760px){
+	.scene_area{
+		padding: 0 !important;
+	}
+}
+
+.scene_area .stage{
+	width: 100%;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	min-height: 150px;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9b80a+0,f5a10e+100 */
+	background: #f9b80a; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #f9b80a 0%, #f5a10e 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #f9b80a 0%,#f5a10e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #f9b80a 0%,#f5a10e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b80a', endColorstr='#f5a10e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	overflow: hidden;
+}
+
+@media (max-width: 760px){
+	.scene_area .stage{
+		box-shadow: none;
+		border-radius: 0;
+	}
+}
+
+.scene_area .stage .container{
+	padding: 100px 50px;
+	border: 6px double #966308;
+    box-shadow: inset 3px 1px 0 rgba(255, 211, 118, 0.72);
+}
+
+@media (max-width: 760px){
+	.scene_area .stage .container{
+		border: none;
+    	box-shadow: none;
+	}
+}
+
+.scene_area .stage header{
+	margin-top: 22px;
+	margin-bottom: 55px;
+}
+
+footer{
+	margin-top: 100px;
+	text-align: center;
+	color: #888;
+	font-size: 14px;
+	padding: 15px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

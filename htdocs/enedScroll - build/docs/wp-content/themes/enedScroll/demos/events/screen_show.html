@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="/css/demo.css">
+		<title> enedScroll ⁝⁝ DEMO ☕</title>
+	</head>
+	<body>
+		
+		<header role="main">
+			<div class="container">
+				<div class="wrap wrap-inner">
+		
+					<div class="left-side">
+						<h2 class="text-logo"> enedScroll </h2>
+					</div>
+
+					<div class="right-side">
+						<nav class="horizontal">
+							<ul>
+								<li><a href="/">Homepage</a></li>
+								<li class="current-item"><a href="#">Show in event</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		
+		<div class="some-space">
+			<div class="center-parent">
+				<div class="center-child">
+					<h2>Screen show in event</h2>
+				</div>
+			</div>
+		</div>
+		<div class="scene text-center">
+			<div class="container j-wh">
+				
+			<div class="item" style="height: 500px;">
+
+				<div class="center-parent">
+					<div class="center-child" style="max-width: 1100px;">
+						
+						  <div class="box i1" style="display:block;padding:0;">
+							<h1 class="text-example"> Simple box </h1>
+						  </div>
+						  <div class="box i2" style="display:block;padding:0;">
+							<h1 class="text-example"> See console after show the screen </h1>
+						  </div>
+
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="some-space"></div>
+		</div>
+
+
+	
+		<footer role="main">
+			<p> enedScroll demonstration </p>
+		</footer>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/enedScroll.js"></script>
+		
+		<script type="text/javascript">
+			(function($){
+
+				var w = $(window), wW = w.width(), wH = w.height();
+				$('.j-wh').css({ 'height': wH + 'px' });
+				$('.box').css({ 'width': '100%', 'height': $('.center-child').height() + 'px' });
+
+			})(jQuery);
+		</script>
+
+		<script type="text/javascript">
+			
+			(function($){
+
+				enedScroll.option({ 'show_all_triggers': true, 'show_all_selectors': true });
+
+				var trigger = new enedScroll.Trigger( 'trigger-1', { top: '25%' } );
+				var scene 	= new enedScroll( $('.item'), { top: 0, bottom: 0 }, trigger );
+				var x = 0;
+				var showScreen = function(data){
+					console.log( data);
+					console.log( ' num:' + x);
+					x++;
+				}
+
+				scene.addCreation(function(e){
+
+					var plugins = e.plugins, screen = plugins.screen();
+
+					screen.collection([
+						screen.add( $('.i1'), 'top', { duration: 100, offset: 0 } ),
+						screen.add( $('.i2'), 'scale', { duration: 100, offset: 0, onShow: { data: { var: 'hello World' }, callback: showScreen } } )
+					]);
+
+
+				});
+				
+
+
+
+
+			})(jQuery);
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Ubuntu');
+
+body,html{
+	padding: 0;
+	margin:0;
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	background: #986889;
+	background: -moz-linear-gradient(left, #986889 0%, #a361bf 45%, #2e51b3 100%);
+	background: -webkit-linear-gradient(left, #986889 0%,#a361bf 45%,#2e51b3 100%);
+	background: linear-gradient(to right, #986889 0%,#a361bf 45%,#2e51b3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#986889', endColorstr='#2e51b3',GradientType=1 );
+}
+
+.container{
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.paper{
+	background: #fff;
+}
+.line{
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.workspace{
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background: #e9e9f5;
+    border-top: 1px solid #bfbfd6;
+    border-bottom: 1px solid #bfbfd6;
+}
+
+header{
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+header[role="main"]{
+	margin: 0;
+    padding: 35px;
+	text-align: center;
+}
+header[role="main"] h1{
+	color:#e2d7e2;
+}
+field{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    padding: 35px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: 7px solid #935ebd;
+    box-shadow: 0 5px 35px rgba(70, 70, 158, 0.22);
+}
+field:nth-child(n+2){
+	margin-top: 30px;
+}
+
+h2{
+	margin-top: 20px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+field .content{
+	margin-top: 15px;
+    margin-bottom: 15px;
+   	font-family: 'Noto Sans', sans-serif;
+}
+footer{
+	margin-top: 25px;
+    margin-bottom: 10px;
+    color: #e2d7e2;
+}

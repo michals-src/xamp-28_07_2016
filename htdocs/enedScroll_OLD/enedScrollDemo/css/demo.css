@@ -1,0 +1,112 @@
+body{
+	background: #e5ebf3 !important;
+}
+.title{
+	font-weight: 700;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	width: 100%;
+	text-align: center;
+	color: #284e80;
+}
+.link{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+[class^="space-"]{
+	margin-top: 100px;
+	background: #eef5ff;
+}
+.space-01{
+	position: relative;
+	text-align: center;
+	height: 1300px;
+}
+	.space-01 .element-01{
+		position: relative;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.space-02{
+	position: relative;
+	text-align: center;
+	height: 1300px;
+}
+	.space-02 .element-02{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.space-03{
+	position: relative;
+	text-align: center;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+	.space-03 .element-03{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.space-04{
+	position: relative;
+	text-align: center;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+	.space-04 .element-04{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.inline{
+	display: inline-block;
+}
+.classes{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	display: block;
+}
+.classes [class^="class-"]{
+	padding: 3px 7px;
+	border: 1px solid #aaa;
+	border-radius:3px;
+}
+	[class^="class-"] p{
+		margin: 0;
+	}
+	
+.class-01{
+	color: #1818ea;
+}	
+.class-02{
+	color: #b514b5;
+}	
+.class-03{
+	color: #188894;
+}
+.class-active,
+[class^="class-"].active{
+	font-weight: 700;
+	background-color: #ffd100;
+}
+
+/* SPACES */
+[class^="vspace-"]{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background: #e9f2fd;
+}

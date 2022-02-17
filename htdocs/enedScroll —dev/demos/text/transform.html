@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="/css/demo.css">
+		<link rel="stylesheet" href="/jquery-ui.css">
+		<title> enedScroll ⁝⁝ DEMO ☕</title>
+	</head>
+	<body>
+		
+		<header role="main">
+			<div class="container">
+				<div class="wrap wrap-inner">
+		
+					<div class="left-side">
+						<h2 class="text-logo"> enedScroll </h2>
+					</div>
+
+					<div class="right-side">
+						<nav class="horizontal">
+							<ul>
+								<li><a href="/">Homepage</a></li>
+								<li class="current-item"><a href="#">transform</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		
+		<div class="some-space">
+			<div class="center-parent">
+				<div class="center-child">
+					<h2>Transform each letter</h2>
+				</div>
+			</div>
+		</div>
+		<div class="scene text-center">
+			<div class="some-space"></div>
+			<div class="container j-wh">
+				
+			<div class="item" style="height: 400px;">
+
+				<div class="center-parent">
+					<div class="center-child">
+						
+						<div class="pointer">
+							<h1 class="text-example"> Simple text for translation </h1>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="some-space"></div>
+		</div>
+
+
+	
+		<footer role="main">
+			<p> enedScroll demonstration </p>
+		</footer>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/jquery-ui.js"></script>
+		<script type="text/javascript" src="/enedScroll.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+		
+		<script type="text/javascript">
+			(function($){
+				var w = $(window), wW = w.width(), wH = w.height();
+				$('.j-wh').css({ 'height': wH + 'px' });
+
+			})(jQuery);
+
+			hljs.initHighlightingOnLoad();
+		</script>
+
+		<script type="text/javascript">
+			
+			(function($){
+
+				/**
+					Separate each letter by span and words by div
+				*/
+				var words = $('.text-example').text().split(' ');
+				var newText = '';
+
+				//clear space
+				$('.text-example').html('');
+
+				$.each( words, function( key ,value){
+
+					//Remove empty value
+					if( value === '' ){ return; }
+
+					var letters = value.split('');
+					var word = '<div style="display:inline-table;margin-right:15px;">';
+
+					//Getting each letter
+					$.each( letters, function( key ,value){
+						word += '<span style="font-weight:700;display:inline-block;">' + value + '</span>';
+					});
+
+					word += '</div>';
+					$('.text-example').append(word);
+
+				});
+
+
+				enedScroll.option({ 'show_all_triggers': true, 'show_all_selectors': true });
+
+				var trigger = new enedScroll.Trigger( 'trigger-1', { top: '30%' } );
+				var scene 	= new enedScroll( $('.item'), { top: -100, bottom: -100 }, trigger );
+
+				scene.addCreation(function(e){
+
+					var plugins = e.plugins, value = plugins.value();
+
+					$.each( $('.text-example span'), function( key, letter ){
+						
+						// Get value of offset as string to make it as percent
+						var num = (5 * key)  + '%';
+						
+						value.get( [
+							value.add( [1,2], { duration: '10%', offset: num } )
+						], function(e){
+							$(letter).css({ 'transform': 'scale(' + e[0] + ')' });
+						} );
+
+					});
+
+
+
+				});
+
+
+
+
+			})(jQuery);
+
+		</script>
+
+	</body>
+</html>

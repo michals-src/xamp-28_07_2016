@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style-demo.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/media_query.css">
+		<title> enedScroll </title>
+	</head>
+	<body>
+
+		<section class="head-screen w-100 middle">
+			<div class="middle-item text-center">
+				<div class="container">
+			
+					<header>
+						<h2 class="pacifico">enedScroll</h2>
+					</header>
+					<p class="medium">Demonstration page</p>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="scene_area w-100 middle">
+			<div class="stage text-center middle">
+				
+				<div class="container middle-item">
+					<div class="stage-target">
+
+						<header>
+							<h2 class="amaranth">Some informations</h2>
+							<p>Using point we can see stats of scene</p>
+						</header>
+						
+						<h4 class="progress">Progress: <span>0</span></h4>
+						<h4 class="state">State: <span>null</span></h4>
+
+					</div><!-- stage-target -->
+				</div><!-- container -->
+
+			</div>
+		</section>
+
+		<div class="scroll-fix w-100 middle">
+			<div class="middle-item text-center" style="color:#ddd;">
+				<h4 class="bold">Some space</h4>
+			</div>
+		</div>
+
+		<footer class="w-100">
+			<p>enedScroll &copy; 2017.</p>
+		</footer>
+
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/enedScroll.js"></script>
+
+	<script>
+		(function ($) {
+
+
+			var winHeight = $(window).height();
+			var StageHeight = parseInt( ( 0.35 * winHeight ), 10 );
+			var ScrollFix = parseInt( ( 0.8 * winHeight ), 10 );
+
+			$('.stage').css('min-height', StageHeight + 'px');
+			$('.scroll-fix').css('min-height', ScrollFix + 'px');
+
+			var TriggerFromWindow = 0.35 * $(window).height();
+
+			var myTrigger = new enedScroll.Trigger( 'my-trigger', TriggerFromWindow );
+			var scene = new enedScroll( $('.scene_area'), myTrigger, {
+				selectors: [ 0, 0 ],
+				visual: {
+					'show_trigger': true,
+					'show_selectors': true
+				}
+			});
+
+			scene.setPoint( '100%', 0, 'scene-information' );
+			scene.is( 'scene-information', 'BEFORE UPDATE AFTER', function(e){
+				if( e.state === "BEFORE" ){
+					$('.state span').html('BEFORE');
+				}					
+				if( e.state === "UPDATE" ){
+					$('.state span').html('UPDATE');
+				}					
+				if( e.state === "AFTER" ){
+					$('.state span').html('AFTER');
+				}
+				$('.progress span').html(Math.ceil(e.progress * 100)/100);
+			});
+
+
+		})(jQuery);
+	</script>
+
+
+	</body>
+</html>
+
+<!-- Photo by Amy on Unsplash
+ -->

@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../css/animate.css">
+		<link rel="stylesheet" href="../css/style-demo.css">
+		<link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+		<title> enedScroll </title>
+	</head>
+	<body>
+
+		<section class="head-screen w-100 middle">
+			<div class="middle-item text-center">
+				<div class="container">
+			
+					<header>
+						<h2 class="pacifico">enedScroll</h2>
+					</header>
+					<p class="medium">Demonstration page</p>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="stage_manager">
+			<div class="container manager">
+				<h6>Scene manager</h6>
+				<div class="row">
+					<div class="col-3">
+						<label for="pin_stage_checkbox" class="normal">Pin stage</label>
+						<input type="checkbox" name="pin_stage" id="pin_stage_checkbox">
+					</div>
+					<div class="col-3">
+						<label for="visualisation_checkbox" class="normal">Enable visualisation</label>
+						<input type="checkbox" name="visualisation_stage" id="visualisation_checkbox">
+					</div>
+					<div class="w-100"></div>
+					<div class="break"></div>
+					<div class="col-3">
+						<label for="trigger_offset" class="normal">Trigger offset</label>
+						<input type="number" name="trigger_offset" id="trigger_offset" value="100">
+					</div>
+					<div class="col-3">
+						<label for="selector_top_offset" class="normal">Selector Top offset</label>
+						<input type="number" name="selector_top_offset" id="selector_top_offset" value="0">
+					</div>
+					<div class="col-3">
+						<label for="selector_bottom_offset" class="normal">Selector Bottom offset</label>
+						<input type="number" name="selector_bottom_offset" id="selector_bottom_offset" value="0">
+					</div>
+				</div>
+			</div><!-- container --><!-- manager -->
+		</section>
+
+		<section class="scene_area w-100 middle">
+			<div class="stage text-center middle">
+				
+				<div class="container middle-item">
+					<div class="stage-target">
+
+						
+
+					</div><!-- stage-target -->
+				</div><!-- container -->
+
+			</div>
+		</section>
+
+		<div class="scroll-fix w-100 middle">
+			<div class="middle-item text-center" style="color:#ddd;">
+				<h4 class="bold">Some space</h4>
+			</div>
+		</div>
+
+		<footer class="w-100">
+			<p>enedScroll &copy; 2017.</p>
+		</footer>
+
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../core_build.js"></script>
+
+	<script>
+		(function ($) {
+
+
+			var winHeight = $(window).height();
+			var StageHeight = parseInt( ( 0.35 * winHeight ), 10 );
+			var ScrollFix = parseInt( ( 0.8 * winHeight ), 10 );
+
+			$('.stage').css('min-height', StageHeight + 'px');
+			$('.scroll-fix').css('min-height', ScrollFix + 'px');
+
+			var TriggerFromWindow = 0.2 * $(window).height();
+
+			/*
+				STAGE MANAGER
+			*/
+			var $pin_stage_checkbox = $('#pin_stage_checkbox');
+			var $visualisation_checkbox = $('#visualisation_checkbox');
+			var $trigger_offset = $('#trigger_offset');
+			var $selector_top_offset = $('#selector_top_offset');
+			var $selector_bottom_offset = $('#selector_bottom_offset');
+
+			var MANAGER = {
+				TRIGGER: TriggerFromWindow,
+				SELECTOR_TOP: 0,
+				SELECTOR_BOTTOM: 0,
+				SETPIN: false,
+				VISUAL: false,
+			};
+
+			$trigger_offset.val( MANAGER.TRIGGER );
+
+			var setPin = function( scene ){
+				if( MANAGER.SETPIN || MANAGER.SETPIN === true ){
+					if($('.enedscroll-pin-coordinator').length > 0){
+						$('.stage-target').insertBefore( $('.enedscroll-pin-coordinator') );
+						$('.enedscroll-pin-coordinator').remove();
+					}
+					scene.pin( $('.stage-target'), [[ 0.6, 0.2 ]] );
+				}else{
+					if($('.enedscroll-pin-coordinator').length > 0){
+						$('.stage-target').insertBefore( $('.enedscroll-pin-coordinator') );
+						$('.enedscroll-pin-coordinator').remove();
+					}
+					scene.pin( $('.stage-target'), [[ 0, 0 ]] );
+				}
+			};
+
+			var setVisualisation = function(){
+				var value = {};
+
+				$('[enedscroll-visual=""]').remove();
+				$('[enedscroll-trigger-my-trigger=""]').remove();
+
+				if( MANAGER.VISUAL || MANAGER.VISUAL === true ){
+					value.show_selectors = true;
+					value.show_trigger = true;
+				}else{
+					value.show_selectors = false;
+					value.show_trigger = false;
+				}
+				return value;
+			};
+
+			var other = function( scene ){
+
+
+
+			};
+
+			var stage = function(){
+
+				var myTrigger = new enedScroll.Trigger( 'my-trigger', MANAGER.TRIGGER );
+				var Scene = new enedScroll( $('.scene_area'), myTrigger, {
+					selectors: [ MANAGER.SELECTOR_TOP, MANAGER.SELECTOR_BOTTOM ],
+					visual: setVisualisation()
+				});
+
+				setPin( Scene );
+				other( Scene );
+
+			};
+			stage();
+
+			$pin_stage_checkbox.on('change', function(){
+
+				var value = $(this).is(':checked');
+				MANAGER.SETPIN = value;
+				stage();
+
+			});
+
+			$visualisation_checkbox.on('change', function(){
+
+				var value = $(this).is(':checked');
+				MANAGER.VISUAL = value;
+				stage();
+
+			});
+
+			$trigger_offset.on('change', function(){
+
+				var value = $(this).val();
+				MANAGER.TRIGGER = parseInt( value, 10 );
+				stage();
+
+			});
+			$selector_top_offset.on('change', function(){
+
+				var value = $(this).val();
+				MANAGER.SELECTOR_TOP = parseInt( value, 10 );
+				stage();
+
+			});
+			$selector_bottom_offset.on('change', function(){
+
+				var value = $(this).val();
+				MANAGER.SELECTOR_BOTTOM = parseInt( value, 10 );
+				stage();
+
+			});
+
+
+		})(jQuery);
+	</script>
+
+
+	</body>
+</html>
+
+<!-- Photo by Amy on Unsplash
+ -->
