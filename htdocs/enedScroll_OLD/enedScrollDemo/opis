@@ -1,0 +1,26 @@
+The plugin allows you to manipulate each item you want to by react on person's current scroll position.
+It's the perfect plugin for your website.
+
+- pin element by scrolled om it and set duration
+- add, remove, toggle class
+- manipulate other scenes
+- create your own animations using transform
+- <strong> and more </strong> ...
+
+Do you want to see how it works ? Go on <a href="http://enedscroll.eu">enedscroll.eu</a>
+On offical website you can read full documentation.
+
+The plugin is easy to use. You need only read documentation and you will be ready to use enedScroll.
+To use the enedScroll you must know a bit jQuery functions e.g .css() .addClass() etc. to create animations or manipulate website items.
+
+<strong> In pack you can find </strong>
+
+- demo / (4)  .html fiels 
+- js / enedscroll.min.js
+- img / (1) .png file
+- favicons /
+- index.html
+- LICENSE
+
+
+scroll,enedscroll,ened,animations

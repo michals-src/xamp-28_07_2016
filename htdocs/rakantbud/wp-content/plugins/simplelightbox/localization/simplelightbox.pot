@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simplelightbox\n"
+"POT-Creation-Date: 2016-03-24 08:44+0100\n"
+"PO-Revision-Date: 2016-03-24 08:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simplelightbox.php:99
+msgid "Class Name"
+msgstr ""
+
+#: ../simplelightbox.php:100
+msgid "adds a class to the wrapper of the lightbox"
+msgstr ""
+
+#: ../simplelightbox.php:104
+msgid "Show Overlay"
+msgstr ""
+
+#: ../simplelightbox.php:105
+msgid "show an overlay or not"
+msgstr ""
+
+#: ../simplelightbox.php:109
+msgid "Show Spinner"
+msgstr ""
+
+#: ../simplelightbox.php:110
+msgid "show spinner or not"
+msgstr ""
+
+#: ../simplelightbox.php:114
+msgid "Show Navigation"
+msgstr ""
+
+#: ../simplelightbox.php:115
+msgid "show arrow-navigation or not"
+msgstr ""
+
+#: ../simplelightbox.php:119
+msgid "Text/Html for Prev Button"
+msgstr ""
+
+#: ../simplelightbox.php:123
+msgid "Text/Html for Next Button"
+msgstr ""
+
+#: ../simplelightbox.php:127
+msgid "Show Captions"
+msgstr ""
+
+#: ../simplelightbox.php:128
+msgid "show captions if availabled or not"
+msgstr ""
+
+#: ../simplelightbox.php:132
+msgid "Caption-Selector"
+msgstr ""
+
+#: ../simplelightbox.php:133
+msgid ""
+"set the element where the caption is. Set it to \"self\" for the A-Tag itself"
+msgstr ""
+
+#: ../simplelightbox.php:137
+msgid "Caption-Type"
+msgstr ""
+
+#: ../simplelightbox.php:138
+msgid "how to get the caption. You can choose between attr, data or text"
+msgstr ""
+
+#: ../simplelightbox.php:142
+msgid "Caption Attribute"
+msgstr ""
+
+#: ../simplelightbox.php:143
+msgid "get the caption from given attribute"
+msgstr ""
+
+#: ../simplelightbox.php:147
+msgid "Caption Position"
+msgstr ""
+
+#: ../simplelightbox.php:148
+msgid ""
+"The position of the caption. Options are top, bottom or outside (note that "
+"outside can be outside the visible viewport!)"
+msgstr ""
+
+#: ../simplelightbox.php:149
+msgid "Top"
+msgstr ""
+
+#: ../simplelightbox.php:149
+msgid "Bottom"
+msgstr ""
+
+#: ../simplelightbox.php:149
+msgid "Outside"
+msgstr ""
+
+#: ../simplelightbox.php:153
+msgid "Caption Delay"
+msgstr ""
+
+#: ../simplelightbox.php:154
+msgid "Time in ms, the show up for the caption should be delayed"
+msgstr ""
+
+#: ../simplelightbox.php:158
+msgid "Show Close Button"
+msgstr ""
+
+#: ../simplelightbox.php:159
+msgid "show the close button or not"
+msgstr ""
+
+#: ../simplelightbox.php:163
+msgid "Text/Html for Close Button"
+msgstr ""
+
+#: ../simplelightbox.php:167
+msgid "Show Counter"
+msgstr ""
+
+#: ../simplelightbox.php:168
+msgid "show current image index or not"
+msgstr ""
+
+#: ../simplelightbox.php:172
+msgid "File Extensions"
+msgstr ""
+
+#: ../simplelightbox.php:173
+msgid "list of fileextensions the plugin works with"
+msgstr ""
+
+#: ../simplelightbox.php:177
+msgid "Animation-Speed"
+msgstr ""
+
+#: ../simplelightbox.php:181
+msgid "Animation-Slide"
+msgstr ""
+
+#: ../simplelightbox.php:182
+msgid "Weather to slide in new photos or not, disable to fade"
+msgstr ""
+
+#: ../simplelightbox.php:186
+msgid "Enable Preloading"
+msgstr ""
+
+#: ../simplelightbox.php:187
+msgid "allows preloading next und previous images"
+msgstr ""
+
+#: ../simplelightbox.php:191
+msgid "Enable Keyboard"
+msgstr ""
+
+#: ../simplelightbox.php:192
+msgid "allow keyboard arrow navigation and close with ESC key"
+msgstr ""
+
+#: ../simplelightbox.php:196
+msgid "Enable Looping"
+msgstr ""
+
+#: ../simplelightbox.php:197
+msgid "enables looping through images"
+msgstr ""
+
+#: ../simplelightbox.php:201
+msgid "Doc Close"
+msgstr ""
+
+#: ../simplelightbox.php:202
+msgid "closes the lightbox when clicking outside"
+msgstr ""
+
+#: ../simplelightbox.php:206
+msgid "Swipe-Tolerance"
+msgstr ""
+
+#: ../simplelightbox.php:207
+msgid "how much pixel you have to swipe, until next or previous image"
+msgstr ""
+
+#: ../simplelightbox.php:211
+msgid "Width Ratio"
+msgstr ""
+
+#: ../simplelightbox.php:212
+msgid "Ratio of image width to screen width"
+msgstr ""
+
+#: ../simplelightbox.php:216
+msgid "Height Ratio"
+msgstr ""
+
+#: ../simplelightbox.php:217
+msgid "Ratio of image height to screen height"
+msgstr ""
+
+#: ../simplelightbox.php:222
+msgid "Disable rightclick"
+msgstr ""
+
+#: ../simplelightbox.php:223
+msgid "disable rightclick on image or not"
+msgstr ""
+
+#: ../simplelightbox.php:227
+msgid "Disable scroll"
+msgstr ""
+
+#: ../simplelightbox.php:228
+msgid "stop scrolling page if lightbox is opened"
+msgstr ""
+
+#: ../simplelightbox.php:231
+msgid "Alert Error"
+msgstr ""
+
+#: ../simplelightbox.php:232
+msgid "show an alert, if image was not found"
+msgstr ""
+
+#: ../simplelightbox.php:235
+msgid "Alert Error Message"
+msgstr ""
+
+#: ../simplelightbox.php:236
+msgid "the message displayed if image was not found"
+msgstr ""
+
+#: ../simplelightbox.php:241
+msgid "Overlay Color"
+msgstr ""
+
+#: ../simplelightbox.php:242
+msgid "Overlay Background-Color"
+msgstr ""
+
+#: ../simplelightbox.php:247
+msgid "Overlay Opacity"
+msgstr ""
+
+#: ../simplelightbox.php:251
+msgid "Button Color"
+msgstr ""
+
+#: ../simplelightbox.php:252
+msgid "Navigation/Close Button Color"
+msgstr ""
+
+#: ../simplelightbox.php:256
+msgid "Loader Color"
+msgstr ""
+
+#: ../simplelightbox.php:260
+msgid "Caption background-color"
+msgstr ""
+
+#: ../simplelightbox.php:264
+msgid "Caption font-color"
+msgstr ""
+
+#: ../simplelightbox.php:268
+msgid "Caption Opacity"
+msgstr ""
+
+#: ../simplelightbox.php:272
+msgid "Minimal Z-Index"
+msgstr ""
+
+#: ../simplelightbox.php:273
+msgid "The minimum z-index for all lightbox elements."
+msgstr ""
+
+#: ../simplelightbox.php:276
+msgid "Section"
+msgstr ""
+
+#: ../simplelightbox.php:344
+msgid "Simplelightbox Settings"
+msgstr ""
+
+#: ../simplelightbox.php:386
+msgid "Settings"
+msgstr ""

@@ -1,0 +1,46 @@
+body{
+	height: 1600px;
+}
+.tignerScroll{
+	position: fixed;
+	top: 50%;
+	width: 5px;
+	height: 1px;
+}
+.stgn{
+	width:100%;
+	height:1px;
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.etgn{
+	width:100%;
+	height:1px;
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.stgn.slTColor,
+.etgn.slTColor{
+	background: red;	
+}
+
+/**/
+.scene{
+	display: table;
+	height: 700px;
+}
+.scene .inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+.scene h1{
+	font-size:120px;
+	text-align: center;
+}
+
+.a2{
+	position: fixed;
+	top:40%;
+}

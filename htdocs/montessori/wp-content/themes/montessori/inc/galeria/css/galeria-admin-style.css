@@ -1,0 +1,219 @@
+.clearfix::before,
+.clearfix::after{
+	content: " ";
+	display: block;
+}
+.clearfix::after{
+	clear: both;
+}
+
+.dashicons{
+	color: transparent;
+}
+
+.dashicons::before{
+	font: 400 20px/1 dashicons;
+    speak: none;
+    display: inline-block;
+    margin-left: -1px;
+    padding-right: 3px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+}
+
+.dashicons-eye::before{
+	content: "\f177";
+}
+.dashicons-no::before{
+	content: "\f158";
+}
+
+/* Styl dashicons-no dla przycisku zamknięcia podglądu zdjęcia */
+.img-prev-close{
+	padding: 15px;
+	cursor: pointer;
+}
+	.img-prev-close:hover::before{
+		color: #999;
+	}
+
+.entry-montessori-box{
+	padding: 15px;
+}
+
+.entry-montessori-box h1{
+	font-size: 32px !important;
+}
+
+.entry-montessori-box h2{
+	font-size: 26px !important;
+}
+
+.entry-montessori-box h3{
+	font-size: 22px !important;
+}
+
+.entry-montessori-box h4{
+	font-size: 18px !important;
+}
+
+.entry-montessori-box h5{
+	font-size: 16px !important;
+}
+
+.entry-montessori-box h6{
+	font-size: 14px !important;
+}
+
+.entry-montessori-box h1,
+.entry-montessori-box h2,
+.entry-montessori-box h3,
+.entry-montessori-box h4,
+.entry-montessori-box h5,
+.entry-montessori-box h6{
+	margin-top: 5px !important;
+	margin-bottom: 15px !important;
+	padding: 0 !important;
+	font-weight: 400;
+	font-weight: normal;
+}
+
+
+.entry-montessori-box .entry-content header{
+	display: block;
+	width: 100%;
+}
+
+.entry-montessori-box .entry-content header .item{
+	display: inline-table;
+	vertical-align: middle;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.entry-montessori-box .entry-content header .item::last-child{
+	margin-right:0;
+}
+
+.entry-montessori-box .entry-content-none{
+	padding: 160px 35px;
+}
+
+.entry-montessori-box .entry-content .entry-content-images{
+	margin-top: 35px;
+	height: 400px;
+	overflow-x: auto;
+}
+
+.entry-montessori-box .entry-content picture{
+	padding: 5px 10px 1px 5px;
+	display: block;
+	float: left;
+	cursor: move;
+	border: 2px solid transparent;
+	background-color: #fff;
+}
+
+.entry-montessori-box .entry-content picture:active{
+	cursor: move;
+	vertical-align: top;
+	border-color: #127bc5;
+}
+
+.entry-montessori-box .entry-content picture header{
+	cursor: pointer;
+	margin-bottom: -15px;
+	position: relative;
+	z-index: 5;
+	text-align: right;
+}
+
+.entry-montessori-box .entry-content picture header span{
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.entry-montessori-box .entry-content picture header .dashicons-eye:hover::before{
+	color: #0070ff;
+}
+.entry-montessori-box .entry-content picture header .dashicons-no:hover::before{
+	color: #c70000;
+}
+
+.entry-montessori-box .entry-content picture img{
+	width: 100%;
+	border: 2px solid transparent;
+	padding: 0;
+	margin: 0;
+}
+
+.entry-montessori-box .entry-content picture img:hover{
+	border-color: #0095ff;
+	box-shadow: 0 0 15px #3caeff;
+}
+
+.entry-montessori-box .entry-content picture:active img{
+	border-color: transparent;
+	box-shadow: none;
+}
+
+@media (min-width: 1440px){
+	.entry-montessori-box .entry-content picture{
+		width: 17.7%;
+	}
+}
+@media (min-width: 1380px) and (max-width: 1439px) {
+	.entry-montessori-box .entry-content picture{
+		width: 29.9%;
+	}
+}
+@media (min-width: 1170px) and (max-width: 1379px) {
+	.entry-montessori-box .entry-content picture{
+		width: 45.999%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1169px) {
+	.entry-montessori-box .entry-content picture{
+		width: 43.99%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.entry-montessori-box .entry-content picture{
+		width: 44%;
+	}
+}
+@media (max-width: 767px){
+	.entry-montessori-box .entry-content picture{
+		width: 29.5%;
+	}
+}
+@media (max-width: 672px){
+	.entry-montessori-box .entry-content picture{
+		width: 44.5%;
+	}
+}
+@media (max-width: 492px){
+	.entry-montessori-box .entry-content picture{
+		width: 43%;
+	}
+}
+@media (max-width: 368px){
+	.entry-montessori-box .entry-content picture{
+		width: 43%;
+	}
+}
+
+#gallery-img-box{
+	background-color: transparent;
+	border-color: transparent;
+}
+.entry-content-box{
+	padding: 25px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 3px 5px rgba(0,0,0,.05);
+}

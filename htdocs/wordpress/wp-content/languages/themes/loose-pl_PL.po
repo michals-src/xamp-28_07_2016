@@ -1,0 +1,933 @@
+# Translation of Themes - Loose in Polish
+# This file is distributed under the same license as the Themes - Loose package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-10 10:51:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: Themes - Loose\n"
+
+#. Theme Name of the plugin/theme
+msgid "Loose"
+msgstr "Loose"
+
+#: inc/customizer.php:497
+msgid "Show menu when scrolling top"
+msgstr "Pokaż menu podczas przewijania do góry"
+
+#: inc/customizer.php:443 inc/template-tags.php:551
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer.php:215
+msgid "Show Sticky Posts Below Slider"
+msgstr "Pokaż Przyklejone Posty Poniżej Slidera"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar"
+msgstr "Brak Sidedaru"
+
+#: template-parts/content-none.php:38
+msgid "Perhaps searching can help."
+msgstr "Spróbuj wyszukać."
+
+#: template-parts/content-none.php:38
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Wydaje się, że nie możemy znaleźć tego, czego szukasz."
+
+#: template-parts/content-none.php:33
+msgid "Please try again with some different keywords."
+msgstr "Proszę, spróbuj ponownie z innymi słowami kluczowymi."
+
+#: template-parts/content-none.php:33
+msgid "Sorry, but nothing matched your search terms."
+msgstr "Niestety, nic nie pasuje do wyszukiwanych haseł."
+
+#. translators: admin url.
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gotowy opublikować swój pierwszy post? <a href=\"%1$s\"></a>."
+
+#: template-parts/content-home-list.php:25
+#: template-parts/content-home-masonry.php:25
+#: template-parts/content-home-slider.php:51
+#: template-parts/content-home-slider.php:69 template-parts/content-home.php:27
+msgid "<span> &#124; </span>"
+msgstr "<span> &#124; </span>"
+
+#: single.php:56
+msgid "Next article"
+msgstr "Następny artykuł"
+
+#: single.php:55
+msgid "Previous article"
+msgstr "Poprzedni artykuł"
+
+#: single.php:37 template-parts/content-home-list.php:53
+msgid " &#124; "
+msgstr " &#124; "
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr "Szukaj:"
+
+#: searchform.php:12
+msgid "Type and hit enter"
+msgstr "Wpisz i naciśnij Enter"
+
+#: searchform.php:11
+msgid "Search for: "
+msgstr "Szukaj:"
+
+#: search.php:57
+msgid "Nothing Found"
+msgstr "Nic nie znaleziono"
+
+#. translators: search term.
+#: search.php:28
+msgid "Search Results for: %s"
+msgstr "Wyniki Wyszukiwania dla: %s"
+
+#: page.php:44 template-nosidebar.php:41
+#: template-parts/content-single-audio.php:41
+#: template-parts/content-single-gallery.php:42
+#: template-parts/content-single-video.php:43
+#: template-parts/content-single.php:30
+msgid "Pages:"
+msgstr "Strony:"
+
+#: index.php:36
+msgid "Latest Posts"
+msgstr "Najnowsze Posty"
+
+#: inc/tgmpa-plugins.php:59
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/tgmpa-plugins.php:52
+msgid "MailChimp for WordPress"
+msgstr "MailChimp for WordPress"
+
+#: inc/tgmpa-plugins.php:45
+msgid "Instagram Slider Widget"
+msgstr "Instagram Slider Widget"
+
+#: inc/tgmpa-plugins.php:38
+msgid "Shareaholic | share buttons, related posts, social analytics & more"
+msgstr "Shareaholic | share buttons, related posts, social analytics & more"
+
+#: inc/tgmpa-plugins.php:31
+msgid "WordPress Popular Posts"
+msgstr "WordPress Popular Posts"
+
+#: inc/template-tags.php:505
+msgid "Expand"
+msgstr "Rozwiń"
+
+#: inc/template-tags.php:478
+msgid "Saturday"
+msgstr "Sobota"
+
+#: inc/template-tags.php:477
+msgid "Friday"
+msgstr "Piątek"
+
+#: inc/template-tags.php:476
+msgid "Thursday"
+msgstr "Czwartek"
+
+#: inc/template-tags.php:475
+msgid "Wednesday"
+msgstr "Środa"
+
+#: inc/template-tags.php:474
+msgid "Tuesday"
+msgstr "Wtorek"
+
+#: inc/template-tags.php:473
+msgid "Monday"
+msgstr "Poniedziałek"
+
+#: inc/template-tags.php:472
+msgid "Sunday"
+msgstr "Niedziela"
+
+#: inc/template-tags.php:452
+msgid "December"
+msgstr "Grudzień"
+
+#: inc/template-tags.php:451
+msgid "November"
+msgstr "Listopad"
+
+#: inc/template-tags.php:450
+msgid "October"
+msgstr "Październik"
+
+#: inc/template-tags.php:449
+msgid "September"
+msgstr "Wrzesień"
+
+#: inc/template-tags.php:448
+msgid "August"
+msgstr "Sierpień"
+
+#: inc/template-tags.php:447
+msgid "July"
+msgstr "Lipiec"
+
+#: inc/template-tags.php:446
+msgid "June"
+msgstr "Czerwiec"
+
+#: inc/template-tags.php:445
+msgid "May"
+msgstr "Maj"
+
+#: inc/template-tags.php:444
+msgid "April"
+msgstr "Kwiecień"
+
+#: inc/template-tags.php:443
+msgid "March"
+msgstr "Marzec"
+
+#: inc/template-tags.php:442
+msgid "February"
+msgstr "Luty"
+
+#: inc/template-tags.php:441
+msgid "January"
+msgstr "Styczeń"
+
+#. translators: post title
+#: inc/template-tags.php:301 inc/template-tags.php:322
+msgid "Read more %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Czytaj dalej %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:263
+msgid "<span>&#124;</span>"
+msgstr "<span>&#124;</span>"
+
+#: inc/template-tags.php:207 inc/template-tags.php:208
+msgid "Email"
+msgstr "Email"
+
+#: inc/template-tags.php:205 inc/template-tags.php:206
+msgid "Name"
+msgstr "Imię"
+
+#: inc/template-tags.php:168
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz czeka na zaakceptowanie."
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:147
+msgid "%s ago"
+msgstr "%s temu"
+
+#: inc/template-tags.php:60 inc/template-tags.php:164 page.php:52
+#: template-nosidebar.php:49
+msgid "Edit"
+msgstr "Edytuj"
+
+#: inc/template-tags.php:56
+msgid "% Comments"
+msgstr "% Komentarze"
+
+#: inc/template-tags.php:56
+msgid "1 Comment"
+msgstr "1 Komentarz"
+
+#: inc/template-tags.php:56
+msgid "Leave a comment"
+msgstr "Dodaj komentarz"
+
+#. translators: tag list
+#: inc/template-tags.php:50
+msgid "Tagged: %1$s"
+msgstr "Tagi: %1$s"
+
+#. translators: post author
+#: inc/template-tags.php:29
+msgctxt "post author"
+msgid " by %s"
+msgstr " przez %s"
+
+#. translators: time ago
+#: inc/template-tags.php:24
+msgctxt "post date"
+msgid "%s ago"
+msgstr "%s temu"
+
+#: inc/customizer.php:482
+msgid "Enable Sticky Sidebar"
+msgstr "Włącz Przyklejony Sidebar"
+
+#: inc/customizer.php:467
+msgid "Enable WordPress Popular Posts Original Output (needs page refresh)"
+msgstr "Włącz Oryginalne Ustawienia Wtyczki WordPress Popular Posts (wymaga odświeżenia strony)"
+
+#: inc/customizer.php:454
+msgid "Advanced Settings"
+msgstr "Ustawienia Zaawansowane"
+
+#: inc/customizer.php:452
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: inc/customizer.php:355
+msgid "Links to social profiles in menu"
+msgstr "Linki do profili społecznościowych w menu"
+
+#: inc/customizer.php:353
+msgid "Social Icons"
+msgstr "Ikony Socialne"
+
+#: inc/customizer.php:344
+msgid "Navigation Only In The Same Category"
+msgstr "Nawigacja Tylko w Tej Samej Kategorii"
+
+#: inc/customizer.php:329
+msgid "Single Post Navigation Previous Post Label"
+msgstr "Nawigacja Pojedynczego Posta: Nazwa Poprzedniego Posta"
+
+#: inc/customizer.php:322
+msgid "Previous Article"
+msgstr "Poprzedni Artykuł"
+
+#: inc/customizer.php:314
+msgid "Single Post Navigation Next Post Label"
+msgstr "Nawigacja Pojedynczego Posta: Nazwa Następnego Posta"
+
+#: inc/customizer.php:307
+msgid "Next Article"
+msgstr "Następny Artykuł"
+
+#: inc/customizer.php:299
+msgid "Enable Single Post Navigation"
+msgstr "Włącz Nawigację Pojedynczego Wpisu"
+
+#: inc/customizer.php:284
+msgid "Enable Sidebar"
+msgstr "Włącz Sidebar"
+
+#: inc/customizer.php:271
+msgid "Single Post Settings"
+msgstr "Ustawienia Pojedynczego Wpisu"
+
+#: inc/customizer.php:269
+msgid "Single Post"
+msgstr "Wpis"
+
+#: inc/customizer.php:260
+msgid "Hide Meta On Home Page/Archive Pages"
+msgstr "Ukryj Meta na Stronie Głównej / Stronach Archiwum"
+
+#: inc/customizer.php:245
+msgid "Hide Title On Home Page/Archive Pages"
+msgstr "Ukryj Tytuł na Stronie Głównej / Stronach Archiwum"
+
+#: inc/customizer.php:230
+msgid "Enable Latest Posts Text"
+msgstr "Włącz Tekst \"Najnowsze Posty\""
+
+#: inc/customizer.php:201
+msgid "Full"
+msgstr "Pełny"
+
+#: inc/customizer.php:200
+msgid "Large"
+msgstr "Duży"
+
+#: inc/customizer.php:199
+msgid "Medium"
+msgstr "Średni"
+
+#: inc/customizer.php:198
+msgid "Thumbnail"
+msgstr "Miniaturka"
+
+#: inc/customizer.php:195
+msgid "From >Settings>Media"
+msgstr "Pobrane z: Ustawienia>Media"
+
+#: inc/customizer.php:193
+msgid "Slider Image Size"
+msgstr "Rozmiar Zdjęć w Sliderze"
+
+#: inc/customizer.php:174
+msgid "(in pixels)"
+msgstr "(w pikselach)"
+
+#: inc/customizer.php:172
+msgid "Height of Home Page Slider"
+msgstr "Wysokość Slidera na Stronie Głównej"
+
+#: inc/customizer.php:150
+msgid "Number of Images to Show in Slider"
+msgstr "Liczba Zdjęć Widoczna w Sliderze"
+
+#: inc/customizer.php:136
+msgid "Masonry (No Sidebar)"
+msgstr "Masonry (bez Sidebaru)"
+
+#: inc/customizer.php:135
+msgid "List + Sidebar"
+msgstr "List + Sidebar"
+
+#: inc/customizer.php:134
+msgid "Masonry + Sidebar"
+msgstr "Masonry + Sidebar"
+
+#: inc/customizer.php:130
+msgid "Blog Home Page Layout"
+msgstr "Układ Głównej Strony Bloga"
+
+#: inc/customizer.php:116
+msgid "Blog Home Page Settings"
+msgstr "Ustawienia Głównej Strony Bloga"
+
+#: inc/customizer.php:114
+msgid "Home Page"
+msgstr "Strona Główna"
+
+#: inc/customizer.php:105
+msgid "Sidebar Background Color 3"
+msgstr "Kolor Tła Sidebaru 3"
+
+#: inc/customizer.php:87
+msgid "Sidebar Background Color 2"
+msgstr "Kolor Tła Sidebaru 2"
+
+#: inc/customizer.php:69
+msgid "Sidebar Background Color 1"
+msgstr "Kolor Tła Sidebaru 1"
+
+#: inc/customizer.php:51
+msgid "Header Background Color"
+msgstr "Kolor Tła Nagłówka"
+
+#: inc/customizer.php:27
+msgid "When to Hide/Show Top Menu (in px)"
+msgstr "Kiedy ukryć/Pokazać Górne Menu (w pikselach)"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalowanie wtyczki %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Wszystkie instalacje zostały zakończone."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s zainstalowane."
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Rozpoczął się proces instalacji. Proces ten może zająć trochę czasu, proszę o cierpliwość."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalowanie i Aktywowanie Wtyczki %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Wszystkie instalacje i aktywacje zostały zakończone."
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Ukryj szczegóły"
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Pokaż Szczegóły"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s zainstalowane i aktywowane pomyślnie."
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Rozpoczął się proces instalacji i uruchamiania. Proces ten może zająć trochę czasu, więc bądź cierpliwy."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Instalacja %1$s nie powiodła się."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Podczas instalacji %1$s wystąpił błąd: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualizowanie wtyczki %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Aktywowanie wtyczki nie powiodło się."
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Brak dostępnych wtyczek do aktywacji."
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Żadne wtyczki nie zostały wybrane do aktywacji. Nie podjęto żadnego działania."
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Żadne wtyczki nie są dostępne do aktualizowania."
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Żadne wtyczki nie są dostępne do zainstalowania w tej chwili."
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Żadne wtyczki nie zostały wybrane do aktualizacji. Nie podjęto żadnego działania."
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Żadne wtyczki nie zostały wybrane do zainstalowania. Nie podjęto żadnego działania."
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Aktualizacja"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Zainstaluj"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Uaktualnij wiadomość od autora wtyczki:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Aktywuj %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Aktualizuj %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Zainstalij %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Wersja"
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Rodzaj"
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Źródło"
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Brak wtyczek do zainstalowania, aktualizacji lub aktywacji."
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Dostępna wersja:"
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimalna wymagana wersja:"
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Zainstalowana wersja:"
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "nieznana"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktywowanie <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktywowanie <span class=\"count\">(%s)</span>"
+msgstr[2] "Aktywowanie <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Dostępna aktualizacja <span class=\"count\">(%s)</span>"
+msgstr[1] "Dostępne aktualizacje <span class=\"count\">(%s)</span>"
+msgstr[2] "Dostępnych aktualizacji <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] " <span class=\"count\">(%s)</span>"
+msgstr[1] "Wszystkie <span class=\"count\">(%s)</span>"
+msgstr[2] "Wszystkich <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Zalecana aktualizacja"
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Wymagana aktualizacja"
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Wymagana Aktualizacja nie jest Dostępna"
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktywny"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Zainstalowany, ale Nieaktywny"
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Niezainstalowana"
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Źródło Zewnętrzne"
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repozytorium WordPressa"
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Zalecany"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Wymagany"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "i"
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Wymagana Aktualizacja"
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ta wtyczka musi być zaktualizowana, aby była zgodna z Twoim motywem."
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Aby uzyskać pomoc, skontaktuj się z administratorem tej witryny."
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Do zainstalowania, aktualizacji lub aktywacji jest jedna lub więcej wymaganych lub zalecanych wtyczek."
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Zignoruj tę wiadomość"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Wszystkie wtyczki zostały poprawnie zainstalowane i aktywowane. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Wtyczka nie jest aktywna. W tym motywie potrzebna jest nowsza wersja %s. Proszę zaktualizuj wtyczkę."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nie podjęto żadnego działania. Wtyczka %1$s jest już aktywna."
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr "Następująca wtyczka została aktywowana pomyślnie:"
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Wtyczka została aktywowana poprawnie."
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Powrót do Panelu Sterowania"
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Wróć do Instalatora Wymaganych Wtyczek"
+
+#: inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Rozpoczęcie aktywacji wtyczki"
+msgstr[1] "Rozpoczęcie aktywacji wtyczek"
+msgstr[2] "Rozpoczęcie aktywacji wtyczek"
+
+#: inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Rozpoczęcie aktualizacji wtyczki"
+msgstr[1] "Rozpoczęcie aktualizacji wtyczek"
+msgstr[2] "Rozpoczęcie aktualizacji wtyczek"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Rozpoczęcie instalacji wtyczki"
+msgstr[1] "Rozpoczęcie instalacji wtyczek"
+msgstr[2] "Rozpoczęcie instalacji wtyczek"
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Coś poszło nie tak z API wtyczki."
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Aktualizowanie Wtyczki: %s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Instalowanie Wtyczki: %s"
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Zainstaluj Wtyczki"
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Zainstaluj Wymagane Wtyczki"
+
+#: inc/class-loose-category-meta.php:333
+msgid "Choose Image"
+msgstr "Wybierz zdjęcie"
+
+#: inc/class-loose-category-meta.php:332
+msgid "Choose Category Image"
+msgstr "Wybierz Zdjęcie Kategorii"
+
+#: inc/class-loose-category-meta.php:228
+msgid "Category Image"
+msgstr "Zdjęcie Kategorii"
+
+#: inc/class-loose-category-meta.php:200 inc/class-loose-category-meta.php:243
+msgid "Remove"
+msgstr "Usunąć"
+
+#: inc/class-loose-category-meta.php:199 inc/class-loose-category-meta.php:242
+msgid "Upload"
+msgstr "Przesłać"
+
+#: inc/class-loose-category-meta.php:194
+msgid "Image"
+msgstr "Zdjęcie"
+
+#: inc/class-loose-category-meta.php:129 inc/class-loose-category-meta.php:174
+msgid "Text Color"
+msgstr "Kolor Tekstu"
+
+#: inc/class-loose-category-meta.php:114 inc/class-loose-category-meta.php:150
+msgid "Background Color"
+msgstr "Kolor Tła"
+
+#: header.php:56 searchform.php:14
+msgid "Search"
+msgstr "Szukaj"
+
+#: header.php:55
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Przejdź do treści"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:182
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "włącz"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: functions.php:169
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "włącz"
+
+#: functions.php:142
+msgid "Top Widget Area. Above the content - on home and archive pages"
+msgstr "Górny Widget nad treścią (na stronie głównej i stronach archiwum)"
+
+#: functions.php:140
+msgid "Top"
+msgstr "Góra"
+
+#: functions.php:128
+msgid "Left Sidebar"
+msgstr "Lewy Sidebar"
+
+#: functions.php:118 functions.php:130
+msgid "Right Sidebar Widget Area"
+msgstr "Widget - Prawy Sidebar"
+
+#: functions.php:116
+msgid "Right Sidebar"
+msgstr "Prawy Sidebar"
+
+#: functions.php:49
+msgid "Top Menu"
+msgstr "Górne Menu"
+
+#: functions.php:48
+msgid "Left Menu"
+msgstr "Lewe Menu"
+
+#. translators: theme neame and theme author..
+#: footer.php:71
+msgid "Theme: %1$s by %2$s."
+msgstr "Motyw: %1$s by %2$s."
+
+#: footer.php:62
+msgid "https://wordpress.org/"
+msgstr "https://pl.wordpress.org/"
+
+#: footer.php:26 header.php:58
+msgid "Close"
+msgstr "Zamknij"
+
+#: comments.php:87
+msgid "Comment"
+msgstr "Komentarz"
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr "Komentarze są niedostępne."
+
+#: comments.php:44 comments.php:69
+msgid "Newer Comments"
+msgstr "Nowsze komentarze"
+
+#: comments.php:43 comments.php:68
+msgid "Older Comments"
+msgstr "Starsze komentarze"
+
+#. translators: number of comments.
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s Komentarz"
+msgstr[1] "%1$s Komentarze"
+msgstr[2] "%1$s Komentarzy"
+
+#: author.php:60 inc/customizer.php:428 inc/template-tags.php:548
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: author.php:56 inc/customizer.php:413 inc/template-tags.php:545
+msgid "Instagram"
+msgstr "Instagram"
+
+#: author.php:52 inc/customizer.php:398 inc/template-tags.php:542
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: author.php:48 inc/customizer.php:383 inc/template-tags.php:539
+msgid "Facebook"
+msgstr "Facebook"
+
+#: author.php:44 inc/customizer.php:368 inc/template-tags.php:536
+msgid "Twitter"
+msgstr "Twitter"
+
+#: author.php:40 inc/template-tags.php:209 inc/template-tags.php:210
+msgid "Website"
+msgstr "Witryna internetowa"
+
+#: 404.php:32
+msgid "Maybe try a search?"
+msgstr "Może spróbuj wyszukać?"
+
+#: 404.php:32
+msgid "It looks like nothing was found at this location."
+msgstr "Wygląda na to, że nic nie zostało znalezione."
+
+#: 404.php:23
+msgid "Error 404"
+msgstr "Błąd 404"
+
+#. Author URI of the plugin/theme
+msgid "http://fatthemes.com"
+msgstr "http://fatthemes.com"
+
+#. Author of the plugin/theme
+msgid "Fat Themes"
+msgstr "Fat Themes"
+
+#. Theme URI of the plugin/theme
+msgid "http://fatthemes.com/loose"
+msgstr "http://fatthemes.com/loose"

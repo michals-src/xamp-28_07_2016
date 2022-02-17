@@ -1,0 +1,56 @@
+body{
+	padding:0;
+	margin:0;
+}
+.tignerScroll{
+	position: fixed;
+	top: 50%;
+	width: 5px;
+	height: 1px;
+}
+.enedS{
+	width:100%;
+	height:1px;
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.enedE{
+	width:100%;
+	height:1px;
+	position:absolute;
+	bottom:0;
+	left: 0;
+}
+.enedS.color,
+.enedE.color{
+	background-color: red;
+}
+
+/**/
+.scene{
+	display: block;
+	height: 700px;
+}
+.scene .inner{
+	display: block;
+}
+.scene h1{
+	font-size:120px;
+	text-align: center;
+}
+
+.a2{
+	top:40%;
+}
+.inner{
+	padding-bottom: 800px;
+}
+.lorem{
+	padding:100px;
+	padding-bottom:280px;
+	text-align: center;
+}
+[class^="sth-"]{
+	position: absolute !important;
+}

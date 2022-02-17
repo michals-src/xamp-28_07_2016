@@ -1,0 +1,15 @@
+.imageItem{
+	overflow: hidden;
+	max-height: 300px;
+}
+
+.imageItem header{
+	display: block;
+	height: 40px;
+	width: 100%;
+	padding:15px;
+}
+
+.imageItem img{
+	width: 100%;
+}

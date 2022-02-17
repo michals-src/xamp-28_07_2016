@@ -1,0 +1,26 @@
+.admin-form-options{
+	padding-right: 300px;
+}
+
+.montessori-admin-form .inside{
+	padding: 0 35px;
+}
+
+.montessori-admin-form .metabox-holder,
+.montessori-admin-form .content-primary{
+	width: 100%;
+}
+
+.montessori-admin-form input[type="text"],
+.montessori-admin-form input[type="number"],
+.montessori-admin-form input[type="password"],
+.montessori-admin-form input[type="date"],
+.montessori-admin-form input[type="email"],
+.montessori-admin-form input[type="phone"],
+.montessori-admin-form input[type="month"],
+.montessori-admin-form input[type="week"],
+.montessori-admin-form input[type="url"],
+.montessori-admin-form select,
+.montessori-admin-form textarea{
+	width: 100% !important;
+}
